@@ -13,7 +13,7 @@
   
   <br>
   <div>
-  <h3 align="left">Linguagens e Ferramentas:</h3>
+  <h2 class="f4 mb-2 text-normal">Linguagens e Ferramentas</h2>
 </div>
 <br>
 <div>

@@ -49,8 +49,30 @@
 
  [![Snake animation](https://github.com/TomasAlric/TomasAlric/blob/output/github-contribution-grid-snake.svg)](https://github.com/walterpaulo)
 
+<br><br>
     
  ## Conheça alguns projetos prontos 
     
-[![Product Management: Test](https://img.youtube.com/vi/kLZY91TCY20/0.jpg)](https://www.youtube.com/watch?v=kLZY91TCY20)    
+<a href="https://youtu.be/9IpP8jcnpx0">
+  <img src="https://img.youtube.com/vi/9IpP8jcnpx0/0.jpg" alt="Galeria de Fotos" width="300" height="auto"/> 
+</a>
+
+<br>
+
+<a href="https://www.youtube.com/watch?v=kLZY91TCY20">
+  <img src="https://img.youtube.com/vi/kLZY91TCY20/0.jpg" alt="Galeria de Fotos" width="300" height="auto"/> 
+</a>
+
+<br>
+
+<a href="https://www.youtube.com/watch?v=J4bgc6xGYlw">
+  <img src="https://img.youtube.com/vi/J4bgc6xGYlw/0.jpg" alt="Galeria de Fotos" width="300" height="auto"/> 
+</a>
+
+<br>
+
+<a href="https://youtu.be/ed6Y6F1jo4E">
+  <img src="https://img.youtube.com/vi/ed6Y6F1jo4E/0.jpg" alt="Monitoramento de Memória + Tempo Real + Recebimento vi Telegram" width="300" height="auto"/> 
+</a>
+
      

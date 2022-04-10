@@ -39,20 +39,20 @@
 </div>
 <br>
 <div>
-<br>
-  <h3 align="left">Siga-me nas redes sociais </h3>
-  <br>
-  <p align="left">
-    <a href="https://www.linkedin.com/in/walter-paulo-37b215117/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" height="30" width="110" /></a>
-<a href="https://api.whatsapp.com/send?phone=5562993447674" target="blank"><img align="center" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="whatsapp" height="30" width="110" /></a>
-
 
  [![Snake animation](https://github.com/TomasAlric/TomasAlric/blob/output/github-contribution-grid-snake.svg)](https://github.com/walterpaulo)
 
 <br><br>
     
  ## Conheça alguns projetos prontos 
-    
+
+<br><br>
+**Tutorias**
+* [Desafio 21 dias em DevOps](https://github.com/walterpaulo/Desafio-DevOps-21-dias/blob/master/README.md)
+
+
+**Vídeos**
+
 <a href="https://youtu.be/9IpP8jcnpx0" targer="_blank">
   <img src="https://img.youtube.com/vi/9IpP8jcnpx0/0.jpg" targer="_blank" alt="Galeria de Fotos" width="300" height="auto"/> 
 </a>
@@ -75,4 +75,9 @@
   <img src="https://img.youtube.com/vi/ed6Y6F1jo4E/0.jpg" targer="_blank" alt="Monitoramento de Memória + Tempo Real + Recebimento vi Telegram" width="300" height="auto"/> 
 </a>
 
-     
+<br>
+
+## Siga-me nas redes sociais
+  <br>
+    <a href="https://www.linkedin.com/in/walter-paulo-37b215117 target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin" height="30" width="110" /></a>
+<a href="https://api.whatsapp.com/send?phone=5562993447674" target="blank"><img align="center" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="whatsapp" height="30" width="110" /></a>

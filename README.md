@@ -23,32 +23,32 @@
 </div>
 <br>
 
-![Angular](https://img.shields.io/badge/-Angular-011C27?style=flat&logo=angular&logoColor=DD403A)&nbsp;
-![GNU/Linux](https://img.shields.io/badge/-GNU/Linux-011C27?style=flat&logo=linux&logoColor=blue)&nbsp;
-![Apache](https://img.shields.io/badge/-Apache-011C27?style=flat&logo=apache)&nbsp;
-![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-011C27?style=flat&logo=springboot)&nbsp;
-![Gimp](https://img.shields.io/badge/-Gimp-011C27?style=flat&logo=gimp)&nbsp;
-![Docker](https://img.shields.io/badge/-Docker-011C27?style=flat&logo=docker)&nbsp;
-![Mysql](https://img.shields.io/badge/-Mysql-011C27?style=flat&logo=mysql&logoColor=47a1ee)&nbsp;
-![Figma](https://img.shields.io/badge/-Figma-011C27?style=flat&logo=figma)&nbsp;
-![Spring](https://img.shields.io/badge/-Spring-011C27?style=flat&logo=spring)&nbsp;
-![scharp](https://img.shields.io/badge/-csharp-011C27?style=flat&logo=csharp)&nbsp;
-![BootStrap](https://img.shields.io/badge/-Bootstrap-011C27?style=flat&logo=bootstrap)&nbsp;
-![Linux](https://img.shields.io/badge/-Linux-011C27?style=flat&logo=linux&logoColor=ffffff)&nbsp;
-![Java](https://img.shields.io/badge/-Java-011C27?style=flat&logo=Java)&nbsp;
-![Ruby](https://img.shields.io/badge/-Ruby-011C27?style=flat&logo=Ruby&logoColor=DD403A)&nbsp;
-![React](https://img.shields.io/badge/-React-011C27?style=flat&logo=react)&nbsp;
-![HTML](https://img.shields.io/badge/-HTML-011C27?style=flat&logo=HTML5)&nbsp;
-![Git](https://img.shields.io/badge/-Git-011C27?style=flat&logo=git)&nbsp;
-![CSS](https://img.shields.io/badge/-CSS-011C27?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
-![Markdown](https://img.shields.io/badge/-Markdown-011C27?style=flat&logo=markdown)&nbsp;
-![JavaScript](https://img.shields.io/badge/-JavaScript-011C27?style=flat&logo=javascript)&nbsp;
-![Terraform](https://img.shields.io/badge/-Terraform-011C27?style=flat&logo=terraform)&nbsp;
-![Node.js](https://img.shields.io/badge/-Node.js-011C27?style=flat&logo=node.js)&nbsp;
-![GitHub](https://img.shields.io/badge/-GitHub-011C27?style=flat&logo=github)&nbsp;
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-011C27?style=flat&logo=postgresql)&nbsp;
-![SQLite](https://img.shields.io/badge/-SQLite-011C27?style=flat&logo=sqlite)&nbsp;
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-011C27?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;
+[![Angular](https://img.shields.io/badge/-Angular-011C27?style=flat&logo=angular&logoColor=DD403A)&nbsp;](./README.md)
+[![GNU/Linux](https://img.shields.io/badge/-GNU/Linux-011C27?style=flat&logo=linux&logoColor=blue)&nbsp;](./README.md)
+[![Apache](https://img.shields.io/badge/-Apache-011C27?style=flat&logo=apache)&nbsp;](./README.md)
+[![Spring Boot](https://img.shields.io/badge/-Spring%20Boot-011C27?style=flat&logo=springboot)&nbsp;](./README.md)
+[![Gimp](https://img.shields.io/badge/-Gimp-011C27?style=flat&logo=gimp)&nbsp;](./README.md)
+[![Docker](https://img.shields.io/badge/-Docker-011C27?style=flat&logo=docker)&nbsp;](./README.md)
+[![Mysql](https://img.shields.io/badge/-Mysql-011C27?style=flat&logo=mysql&logoColor=47a1ee)&nbsp;](./README.md)
+[![Figma](https://img.shields.io/badge/-Figma-011C27?style=flat&logo=figma)&nbsp;](./README.md)
+[![Spring](https://img.shields.io/badge/-Spring-011C27?style=flat&logo=spring)&nbsp;](./README.md)
+[![scharp](https://img.shields.io/badge/-csharp-011C27?style=flat&logo=csharp)&nbsp;](./README.md)
+[![BootStrap](https://img.shields.io/badge/-Bootstrap-011C27?style=flat&logo=bootstrap)&nbsp;](./README.md)
+[![Linux](https://img.shields.io/badge/-Linux-011C27?style=flat&logo=linux&logoColor=ffffff)&nbsp;](./README.md)
+[![Java](https://img.shields.io/badge/-Java-011C27?style=flat&logo=Java)&nbsp;](./README.md)
+[![Ruby](https://img.shields.io/badge/-Ruby-011C27?style=flat&logo=Ruby&logoColor=DD403A)&nbsp;](./README.md)
+[![React](https://img.shields.io/badge/-React-011C27?style=flat&logo=react)&nbsp;](./README.md)
+[![HTML](https://img.shields.io/badge/-HTML-011C27?style=flat&logo=HTML5)&nbsp;](./README.md)
+[![Git](https://img.shields.io/badge/-Git-011C27?style=flat&logo=git)&nbsp;](./README.md)
+[![CSS](https://img.shields.io/badge/-CSS-011C27?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;](./README.md)
+[![Markdown](https://img.shields.io/badge/-Markdown-011C27?style=flat&logo=markdown)&nbsp;](./README.md)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-011C27?style=flat&logo=javascript)&nbsp;](./README.md)
+[![Terraform](https://img.shields.io/badge/-Terraform-011C27?style=flat&logo=terraform)&nbsp;](./README.md)
+[![Node.js](https://img.shields.io/badge/-Node.js-011C27?style=flat&logo=node.js)&nbsp;](./README.md)
+[![GitHub](https://img.shields.io/badge/-GitHub-011C27?style=flat&logo=github)&nbsp;](./README.md)
+[![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-011C27?style=flat&logo=postgresql)&nbsp;](./README.md)
+[![SQLite](https://img.shields.io/badge/-SQLite-011C27?style=flat&logo=sqlite)&nbsp;](./README.md)
+[![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-011C27?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;](./README.md)
 
 <!-- <div>
   <img align = "center" src="https://i.imgur.com/co3aDyw.png" targer="_blank" alt="junit" width="30" height="30"/>                     

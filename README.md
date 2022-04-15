@@ -25,6 +25,7 @@
 
 ![Angular](https://img.shields.io/badge/-Angular-011C27?style=flat&logo=angular&logoColor=DD403A)&nbsp;
 ![GNU/Linux](https://img.shields.io/badge/-GNU/Linux-011C27?style=flat&logo=linux&logoColor=blue)&nbsp;
+![Apache](https://img.shields.io/badge/-Apache-011C27?style=flat&logo=apache)&nbsp;
 ![Gimp](https://img.shields.io/badge/-Gimp-011C27?style=flat&logo=gimp)&nbsp;
 ![Docker](https://img.shields.io/badge/-Docker-011C27?style=flat&logo=docker)&nbsp;
 ![Mysql](https://img.shields.io/badge/-Mysql-011C27?style=flat&logo=mysql&logoColor=47a1ee)&nbsp;

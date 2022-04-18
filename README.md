@@ -9,10 +9,8 @@
 
 <br><br>
 
-  <div>
-    <a href="https://github.com/walterpaulo">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=walterpaulo&show_icons=true&theme=algolia&include_all_commits=true&count_private=true"/>
-  </div>
+[![status](https://github-readme-stats.vercel.app/api?username=walterpaulo&show_icons=true&theme=algolia&include_all_commits=true&count_private=true)](./README.md)
+
  <br>
 
   [![Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=walterpaulo&custom_title=Tecnologias)](https://github.com/walterpaulo)

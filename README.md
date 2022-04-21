@@ -68,6 +68,11 @@
 
 **Vídeos**
 
+<a href="https://youtu.be/_NugPG4RKdE" targer="_blank">
+  <img src="https://img.youtube.com/vi/_NugPG4RKdE/0.jpg" targer="_blank" alt="Terraform + Ansible + aws" width="300" height="auto"/> 
+</a>
+
+ <br>
 <a href="https://youtu.be/9IpP8jcnpx0" targer="_blank">
   <img src="https://img.youtube.com/vi/9IpP8jcnpx0/0.jpg" targer="_blank" alt="Galeria de Fotos" width="300" height="auto"/> 
 </a>

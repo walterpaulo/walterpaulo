@@ -48,15 +48,7 @@
 [![SQLite](https://img.shields.io/badge/-SQLite-011C27?style=flat&logo=sqlite)&nbsp;](https://github.com/walterpaulo/)
 [![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-011C27?style=flat&logo=visual-studio-code&logoColor=007ACC)&nbsp;](https://github.com/walterpaulo/)
 
-<!-- <div>
-  <img align = "center" src="https://i.imgur.com/co3aDyw.png" targer="_blank" alt="junit" width="30" height="30"/>                     
-  <img align = "center" src="https://i.imgur.com/IhS1TUg.png" targer="_blank" alt="aws" width="50" height="50"/>
-</div> -->
 <br>
-<div>
-
- [![Snake animation](https://github.com/TomasAlric/TomasAlric/blob/output/github-contribution-grid-snake.svg)](https://github.com/walterpaulo)
-
 <br><br>
     
  ## Conheça alguns projetos prontos 
@@ -68,33 +60,42 @@
 
 **Vídeos**
 
+
+#### WordPress: Ansible + Terraform + Shell script + Aws. [Abrir agora?](https://youtu.be/_NugPG4RKdE)
+
 <a href="https://youtu.be/_NugPG4RKdE" targer="_blank">
   <img src="https://img.youtube.com/vi/_NugPG4RKdE/0.jpg" targer="_blank" alt="Terraform + Ansible + aws" width="300" height="auto"/> 
 </a>
 
- <br>
-<a href="https://youtu.be/9IpP8jcnpx0" targer="_blank">
+<br>
+
+#### Galerias de Fotos. [Abrir agora?](https://youtu.be/9IpP8jcnpx0)
+
+
+<a href="https://youtu.be/9IpP8jcnpx0" targer="_blank"> 
   <img src="https://img.youtube.com/vi/9IpP8jcnpx0/0.jpg" targer="_blank" alt="Galeria de Fotos" width="300" height="auto"/> 
 </a>
 
 <br>
 
+#### Estoque de Produtos - Ruby com testes. [Abrir agora?](https://www.youtube.com/watch?v=kLZY91TCY20)
+
 <a href="https://www.youtube.com/watch?v=kLZY91TCY20">
-  <img src="https://img.youtube.com/vi/kLZY91TCY20/0.jpg" targer="_blank" alt="Galeria de Fotos" width="300" height="auto"/> 
+  <img src="https://img.youtube.com/vi/kLZY91TCY20/0.jpg" targer="_blank" alt="Estoque de Produtos" width="300" height="auto"/> 
 </a>
 
 <br>
+
+#### Carrinho de Compra - Java com testes. [Abrir agora?](https://www.youtube.com/watch?v=J4bgc6xGYlw)
 
 <a href="https://www.youtube.com/watch?v=J4bgc6xGYlw">
-  <img src="https://img.youtube.com/vi/J4bgc6xGYlw/0.jpg" alt="Galeria de Fotos" width="300" height="auto"/> 
+  <img src="https://img.youtube.com/vi/J4bgc6xGYlw/0.jpg" alt="Carrinho de compra" width="300" height="auto"/> 
 </a>
 
 <br>
+
+#### Monitoramento em tempo real: Zabbix + Grafana + Telegram. [Abrir agora?](https://youtu.be/ed6Y6F1jo4E)
 
 <a href="https://youtu.be/ed6Y6F1jo4E">
   <img src="https://img.youtube.com/vi/ed6Y6F1jo4E/0.jpg" targer="_blank" alt="Monitoramento de Memória + Tempo Real + Recebimento vi Telegram" width="300" height="auto"/> 
 </a>
-
-<br>
-
-

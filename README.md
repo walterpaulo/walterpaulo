@@ -68,6 +68,7 @@
 </a>
 
 <br>
+<br>
 
 #### Galerias de Fotos. [Abrir agora?](https://youtu.be/9IpP8jcnpx0)
 
@@ -77,6 +78,7 @@
 </a>
 
 <br>
+<br>
 
 #### Estoque de Produtos - Ruby com testes. [Abrir agora?](https://www.youtube.com/watch?v=kLZY91TCY20)
 
@@ -85,6 +87,7 @@
 </a>
 
 <br>
+<br>
 
 #### Carrinho de Compra - Java com testes. [Abrir agora?](https://www.youtube.com/watch?v=J4bgc6xGYlw)
 
@@ -92,6 +95,7 @@
   <img src="https://img.youtube.com/vi/J4bgc6xGYlw/0.jpg" alt="Carrinho de compra" width="300" height="auto"/> 
 </a>
 
+<br>
 <br>
 
 #### Monitoramento em tempo real: Zabbix + Grafana + Telegram. [Abrir agora?](https://youtu.be/ed6Y6F1jo4E)

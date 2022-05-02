@@ -50,10 +50,23 @@
 
 <br>
 <br><br>
-    
- ## Conheça alguns projetos prontos 
+
+## Eventos
+
+#### [Desafio Tec - Ânima Educação](https://www.linkedin.com/posts/walter-paulo-37b215117_terceiro-brasil-tech-activity-6926737439688384512-Cws-?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+<a href="https://www.linkedin.com/posts/walter-paulo-37b215117_terceiro-brasil-tech-activity-6926737439688384512-Cws-?utm_source=linkedin_share&utm_medium=member_desktop_web" targer="_blank">
+  <img src="https://media-exp1.licdn.com/dms/image/C4D22AQGVkGOKxBz0gQ/feedshare-shrink_800/0/1651462896737?e=2147483647&v=beta&t=5pmiIVHNHCJzVsbG8lmzRKSfws9A4DPQXoUatY6-ZJE" targer="_blank" alt="Terraform + Ansible + aws" width="150" height="auto"/> 
+</a>
+
+
 
 <br><br>
+
+ ## Conheça alguns projetos prontos 
+
+<br>
+
 **Tutorias**
 * [Desafio 21 dias em DevOps](https://github.com/walterpaulo/Desafio-DevOps-21-dias/blob/master/README.md)
 
@@ -64,7 +77,7 @@
 #### WordPress: Ansible + Terraform + Shell script + Aws. [Abrir agora?](https://youtu.be/_NugPG4RKdE)
 
 <a href="https://youtu.be/_NugPG4RKdE" targer="_blank">
-  <img src="https://img.youtube.com/vi/_NugPG4RKdE/0.jpg" targer="_blank" alt="Terraform + Ansible + aws" width="300" height="auto"/> 
+  <img src="https://img.youtube.com/vi/_NugPG4RKdE/0.jpg" targer="_blank" alt="Terraform + Ansible + aws" width="150" height="auto"/> 
 </a>
 
 <br>
@@ -74,7 +87,7 @@
 
 
 <a href="https://youtu.be/9IpP8jcnpx0" targer="_blank"> 
-  <img src="https://img.youtube.com/vi/9IpP8jcnpx0/0.jpg" targer="_blank" alt="Galeria de Fotos" width="300" height="auto"/> 
+  <img src="https://img.youtube.com/vi/9IpP8jcnpx0/0.jpg" targer="_blank" alt="Galeria de Fotos" width="150" height="auto"/> 
 </a>
 
 <br>
@@ -83,7 +96,7 @@
 #### Estoque de Produtos - Ruby com testes. [Abrir agora?](https://www.youtube.com/watch?v=kLZY91TCY20)
 
 <a href="https://www.youtube.com/watch?v=kLZY91TCY20">
-  <img src="https://img.youtube.com/vi/kLZY91TCY20/0.jpg" targer="_blank" alt="Estoque de Produtos" width="300" height="auto"/> 
+  <img src="https://img.youtube.com/vi/kLZY91TCY20/0.jpg" targer="_blank" alt="Estoque de Produtos" width="150" height="auto"/> 
 </a>
 
 <br>
@@ -92,7 +105,7 @@
 #### Carrinho de Compra - Java com testes. [Abrir agora?](https://www.youtube.com/watch?v=J4bgc6xGYlw)
 
 <a href="https://www.youtube.com/watch?v=J4bgc6xGYlw">
-  <img src="https://img.youtube.com/vi/J4bgc6xGYlw/0.jpg" alt="Carrinho de compra" width="300" height="auto"/> 
+  <img src="https://img.youtube.com/vi/J4bgc6xGYlw/0.jpg" alt="Carrinho de compra" width="150" height="auto"/> 
 </a>
 
 <br>
@@ -101,5 +114,5 @@
 #### Monitoramento em tempo real: Zabbix + Grafana + Telegram. [Abrir agora?](https://youtu.be/ed6Y6F1jo4E)
 
 <a href="https://youtu.be/ed6Y6F1jo4E">
-  <img src="https://img.youtube.com/vi/ed6Y6F1jo4E/0.jpg" targer="_blank" alt="Monitoramento de Memória + Tempo Real + Recebimento vi Telegram" width="300" height="auto"/> 
+  <img src="https://img.youtube.com/vi/ed6Y6F1jo4E/0.jpg" targer="_blank" alt="Monitoramento de Memória + Tempo Real + Recebimento vi Telegram" width="150" height="auto"/> 
 </a>

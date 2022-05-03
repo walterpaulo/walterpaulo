@@ -56,20 +56,28 @@
 #### [Desafio Tec - Ânima Educação](https://www.linkedin.com/posts/walter-paulo-37b215117_terceiro-brasil-tech-activity-6926737439688384512-Cws-?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
 <a href="https://www.linkedin.com/posts/walter-paulo-37b215117_terceiro-brasil-tech-activity-6926737439688384512-Cws-?utm_source=linkedin_share&utm_medium=member_desktop_web" targer="_blank">
-  <img src="https://media-exp1.licdn.com/dms/image/C4D22AQGVkGOKxBz0gQ/feedshare-shrink_800/0/1651462896737?e=2147483647&v=beta&t=5pmiIVHNHCJzVsbG8lmzRKSfws9A4DPQXoUatY6-ZJE" targer="_blank" alt="Terraform + Ansible + aws" width="150" height="auto"/> 
+  <img src="https://media-exp1.licdn.com/dms/image/C4D22AQGVkGOKxBz0gQ/feedshare-shrink_800/0/1651462896737?e=2147483647&v=beta&t=5pmiIVHNHCJzVsbG8lmzRKSfws9A4DPQXoUatY6-ZJE" targer="_blank" alt="Desafio tec Anima Educação" width="150" height="auto"/> 
 </a>
-
 
 
 <br><br>
 
- ## Conheça alguns projetos prontos 
+ ## Conheça alguns projetos 
 
 <br>
 
 **Tutorias**
 * [Desafio 21 dias em DevOps](https://github.com/walterpaulo/Desafio-DevOps-21-dias/blob/master/README.md)
 
+<br>
+
+*  [BASE DE API](https://www.linkedin.com/posts/walter-paulo-37b215117_base-para-api-activity-6927166536197517312-HMQT?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+<a href="https://www.linkedin.com/posts/walter-paulo-37b215117_base-para-api-activity-6927166536197517312-HMQT?utm_source=linkedin_share&utm_medium=member_desktop_web" targer="_blank">
+  <img src="https://media-exp1.licdn.com/dms/image/C4D1FAQGe5a-E-f4MgQ/feedshare-document-images_480/1/1651564851794?e=2147483647&v=beta&t=WKfadHzoIF_Yv4AXn8W-5JZIrJHXI80crc-SvlLAx9k" targer="_blank" alt="API BASE" width="150" height="auto"/> 
+</a>
+
+<br>
 
 **Vídeos**
 

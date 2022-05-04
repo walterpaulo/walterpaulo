@@ -79,6 +79,14 @@
 
 <br>
 
+*  [RAILS PARTIALS](https://www.linkedin.com/posts/walter-paulo-37b215117_rails-partials-activity-6927258404386127872--AZi?utm_source=linkedin_share&utm_medium=member_desktop_web)
+
+<a href="https://www.linkedin.com/posts/walter-paulo-37b215117_rails-partials-activity-6927258404386127872--AZi?utm_source=linkedin_share&utm_medium=member_desktop_web" targer="_blank">
+  <img src="https://media-exp1.licdn.com/dms/image/C4D1FAQH0BB9X9xLm0Q/feedshare-document-images_480/1/1651586563398?e=1651734000&v=beta&t=u3tfRuquhCgcn_4e33-fAndLJY1_yoCotbrry-mHoy0" targer="_blank" alt="API BASE" width="150" height="auto"/> 
+</a>
+
+<br>
+
 **Vídeos**
 
 

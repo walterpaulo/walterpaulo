@@ -67,23 +67,36 @@
 <br>
 
 **Tutorias**
+
+* [Desafio 21 dias em Java](https://github.com/walterpaulo/treinamento21DiasJava/blob/main/README.md)
+
+* [Desafio 21 dias de lógica em Python](https://github.com/walterpaulo/logica-python/blob/main/README.md)
+
 * [Desafio 21 dias em DevOps](https://github.com/walterpaulo/Desafio-DevOps-21-dias/blob/master/README.md)
 
-<br>
+*  [Base para construção de API](https://www.linkedin.com/posts/walter-paulo-37b215117_base-para-api-activity-6927166536197517312-HMQT?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
-*  [BASE DE API](https://www.linkedin.com/posts/walter-paulo-37b215117_base-para-api-activity-6927166536197517312-HMQT?utm_source=linkedin_share&utm_medium=member_desktop_web)
-
-<a href="https://www.linkedin.com/posts/walter-paulo-37b215117_base-para-api-activity-6927166536197517312-HMQT?utm_source=linkedin_share&utm_medium=member_desktop_web" targer="_blank">
-  <img src="https://media-exp1.licdn.com/dms/image/C4D1FAQGe5a-E-f4MgQ/feedshare-document-images_480/1/1651564851794?e=2147483647&v=beta&t=WKfadHzoIF_Yv4AXn8W-5JZIrJHXI80crc-SvlLAx9k" targer="_blank" alt="API BASE" width="150" height="auto"/> 
-</a>
+* [Renderização de páginas HTML - Ruby on Rails](https://www.linkedin.com/posts/walter-paulo-37b215117_rails-partials-activity-6927258404386127872--AZi?utm_source=linkedin_share&utm_medium=member_desktop_web)
 
 <br>
 
-*  [RAILS PARTIALS](https://www.linkedin.com/posts/walter-paulo-37b215117_rails-partials-activity-6927258404386127872--AZi?utm_source=linkedin_share&utm_medium=member_desktop_web)
+**Códigos**
 
-<a href="https://www.linkedin.com/posts/walter-paulo-37b215117_rails-partials-activity-6927258404386127872--AZi?utm_source=linkedin_share&utm_medium=member_desktop_web" targer="_blank">
-  <img src="https://media-exp1.licdn.com/dms/image/C4D1FAQH0BB9X9xLm0Q/feedshare-document-images_480/1/1651586563398?e=1651734000&v=beta&t=u3tfRuquhCgcn_4e33-fAndLJY1_yoCotbrry-mHoy0" targer="_blank" alt="API BASE" width="150" height="auto"/> 
-</a>
+* [Gerador de QrCode - React Js](https://github.com/walterpaulo/getQrCode)
+* [Lista de Comentários - React Js](https://github.com/walterpaulo/list-comments)
+* [Converter Dolar para o Real - React Js](https://github.com/walterpaulo/dolar-vitejs)
+* [Subir máquina virutal com o Jenkins - Devps(Terraform, Ansible e Aws)](https://github.com/walterpaulo/terraform-ansible-aws-jenkins)
+* [Subir máquina virtual com o Wordpress( linguagem PHP) -Devps(Terraform, Ansible e Aws)](https://github.com/walterpaulo/terraform-ansible-aws-wordpress)
+* [Ferramento para automatizar terafas no Linux - SHELL](https://github.com/walterpaulo/script)
+* [Tubinando terminal do linux - tmux](https://github.com/walterpaulo/tmux-config)
+* [Cadastro de Produtos - Ruby on Rails](https://github.com/walterpaulo/productmanagement)
+* [Upload de Foto - Ruby on Rails](https://github.com/walterpaulo/file-R)
+* [Consulta região por IP - Java, String Boot, Maven, Json e Thymeleaf](https://github.com/walterpaulo/getIP)
+* [Consulta endereço por CEP + testes - Java, JUnit, Maven](https://github.com/walterpaulo/ConsultaCEP)
+* [Scan Display Number + testes -  Java, JUnit (Avaliação Técnica)](https://github.com/walterpaulo/scandisplaynumber)
+* [Carrinho de Compra + testes - Java, JUnit (Avaliação Técnica)](https://github.com/walterpaulo/carrinho-de-compra-java)
+* [Agenda - Java JSF](https://github.com/walterpaulo/Agenda-JSF)
+* [Solicitação de Ordem de serviço - Java JSF (trabalho de faculdade)](https://github.com/walterpaulo/solicitacao-order-servico-jsf)
 
 <br>
 

@@ -81,7 +81,9 @@
 <br>
 
 **Códigos**
-
+* [ Gestão de Contas - Angular 14 + Json-server](https://github.com/walterpaulo/conta-ja)
+* [ Criar API em três passos - Json server ](https://github.com/walterpaulo/conta-ja/tree/main/back)
+* [ CRUD de empresa - Java + Angular 13](https://github.com/walterpaulo/empresaAPI)
 * [Gerador de QrCode - React Js](https://github.com/walterpaulo/getQrCode)
 * [Lista de Comentários - React Js](https://github.com/walterpaulo/list-comments)
 * [Converter Dolar para o Real - React Js](https://github.com/walterpaulo/dolar-vitejs)
@@ -97,6 +99,7 @@
 * [Carrinho de Compra + testes - Java, JUnit (Avaliação Técnica)](https://github.com/walterpaulo/carrinho-de-compra-java)
 * [Agenda - Java JSF](https://github.com/walterpaulo/Agenda-JSF)
 * [Solicitação de Ordem de serviço - Java JSF (trabalho de faculdade)](https://github.com/walterpaulo/solicitacao-order-servico-jsf)
+* [Quero ver mais códigos...](https://github.com/walterpaulo?tab=repositories)
 
 <br>
 

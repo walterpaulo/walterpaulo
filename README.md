@@ -1,6 +1,6 @@
 ## Bem vindo ao meu repositório!
 
-<p>Olá, sou o Walter Paulo, desenvolvedor de front-end(cliente) e back-end(servidor), graduado em Sistemas de Informação pela [Faculdade Delta](https://faculdadedelta.com.br/).</p> 
+<p>Olá, sou o Walter Paulo, desenvolvedor de front-end(cliente) e back-end(servidor), graduado em Sistemas de Informação pela</p> [Faculdade Delta](https://faculdadedelta.com.br/). 
 
 <br>
 
@@ -10,7 +10,8 @@
 
  <div>
   <h2 class="f4 mb-2 text-normal">Status de Códigos</h2>
- * + de mil e duzentos alterações feita aqui no repositório do GitHub desde de 2018;
+* + de mil e duzentos alterações feita aqui no repositório do GitHub para projetos de acesso público desde de 2018;
+
 </div>
 
 [![status](https://github-readme-stats.vercel.app/api?username=walterpaulo&show_icons=true&theme=algolia&include_all_commits=true&count_private=true)](./README.md)

@@ -11,7 +11,6 @@
  <div>
   <h2 class="f4 mb-2 text-normal">Status de Códigos</h2>
  * + de mil e duzentos alterações feita aqui no repositório do GitHub desde de 2018;
- 
 </div>
 
 [![status](https://github-readme-stats.vercel.app/api?username=walterpaulo&show_icons=true&theme=algolia&include_all_commits=true&count_private=true)](./README.md)
@@ -20,6 +19,7 @@
  <div>
   <h2 class="f4 mb-2 text-normal">Status De Projetos Feitos e disponíveis Por Linguagem</h2>
 </div>
+
   [![status](https://github-readme-stats.vercel.app/api/top-langs/?username=walterpaulo&custom_title=Tecnologias)]([https://github.com/walterpaulo](https://www.walterpaulo.com.br/projetos))
   
   <br>
@@ -88,13 +88,16 @@
 <br>
 
 **Dicas**
+
 - [Configuração De Ambiente Java ou similar](https://gist.github.com/walterpaulo/993faf4069c910d534571a23b4e50f21)
 - [Configuração IReport](https://gist.github.com/walterpaulo/19736480b98b63c5d53d48c713ff5a6d)
 - [Pendrive Botável](https://gist.github.com/walterpaulo/d1781282629574df11684ef12c8aa42c)
 - [Orange Pi e Similar](https://gist.github.com/walterpaulo/f4bf6774cac5d62e0404e9b7ceb63e53)
 
 <br>
+
 **Códigos**
+
 * [ Gestão de Contas - Angular 14 + Json-server](https://github.com/walterpaulo/conta-ja)
 * [ Criar API em três passos - Json server ](https://github.com/walterpaulo/conta-ja/tree/main/back)
 * [ CRUD de empresa - Java + Angular 13](https://github.com/walterpaulo/empresaAPI)

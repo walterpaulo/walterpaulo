@@ -1,6 +1,7 @@
-##
+## Bem vindo ao meu repositório!
+>> contato: [https://www.walterpaulo.com.br](https://www.walterpaulo.com.br)
 
-## Olá! Eu sou o Walter 
+## Olá, sou o Walter Paulo, desenvolvedor de front-end(cliente) e back-end(servidor), graduado em Sistemas de Informação pela [Faculdade Delta](https://faculdadedelta.com.br/). 
 
 <br>
 
@@ -86,7 +87,7 @@
 - [Pendrive Botável](https://gist.github.com/walterpaulo/d1781282629574df11684ef12c8aa42c)
 - [Orange Pi e Similar](https://gist.github.com/walterpaulo/f4bf6774cac5d62e0404e9b7ceb63e53)
 
-
+<br>
 **Códigos**
 * [ Gestão de Contas - Angular 14 + Json-server](https://github.com/walterpaulo/conta-ja)
 * [ Criar API em três passos - Json server ](https://github.com/walterpaulo/conta-ja/tree/main/back)

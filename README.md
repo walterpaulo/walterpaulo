@@ -1,6 +1,6 @@
 ## Bem vindo ao meu repositório!
 
-<p>Olá, sou o Walter Paulo, desenvolvedor de front-end(cliente) e back-end(servidor), graduado em Sistemas de Informação pela</p> [Faculdade Delta](https://faculdadedelta.com.br/). 
+<p>Olá, sou o Walter Paulo, desenvolvedor de front-end(cliente) e back-end(servidor), graduado em Sistemas de Informação pela Faculdade Delta (https://faculdadedelta.com.br/).</p> 
 
 <br>
 

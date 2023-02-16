@@ -1,20 +1,23 @@
 ## Bem vindo ao meu repositório!
->> contato: [https://www.walterpaulo.com.br](https://www.walterpaulo.com.br)
 
-## Olá, sou o Walter Paulo, desenvolvedor de front-end(cliente) e back-end(servidor), graduado em Sistemas de Informação pela [Faculdade Delta](https://faculdadedelta.com.br/). 
+<p>Olá, sou o Walter Paulo, desenvolvedor de front-end(cliente) e back-end(servidor), graduado em Sistemas de Informação pela [Faculdade Delta](https://faculdadedelta.com.br/).</p> 
 
 <br>
-
-[![linkdin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/walter-paulo-37b215117)
-
+>> contato: [https://www.walterpaulo.com.br](https://www.walterpaulo.com.br)
 
 <br><br>
-
+ <div>
+  <h2 class="f4 mb-2 text-normal">Status de Códigos</h2>
+ * + de mil e duzentos alterações feita aqui no repositório do GitHub desde de 2018;
+ 
+</div>
 [![status](https://github-readme-stats.vercel.app/api?username=walterpaulo&show_icons=true&theme=algolia&include_all_commits=true&count_private=true)](./README.md)
 
  <br>
-
-  [![Linguagens](https://github-readme-stats.vercel.app/api/top-langs/?username=walterpaulo&custom_title=Tecnologias)](https://github.com/walterpaulo)
+ <div>
+  <h2 class="f4 mb-2 text-normal">Status De Projetos Feitos e disponíveis Por Linguagem</h2>
+</div>
+  [![](https://github-readme-stats.vercel.app/api/top-langs/?username=walterpaulo&custom_title=Tecnologias)]([https://github.com/walterpaulo](https://www.walterpaulo.com.br/projetos))
   
   <br>
   <div>

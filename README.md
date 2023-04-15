@@ -94,7 +94,7 @@
 <br>
 
 **Dicas**
-
+- [Edição de Vídeos - Redizir tamanhos de vídeos...](https://gist.github.com/walterpaulo/c4601c9c16ff3531ed185a220c274a0a)
 - [Configuração De Ambiente Java ou similar](https://gist.github.com/walterpaulo/993faf4069c910d534571a23b4e50f21)
 - [Configuração IReport](https://gist.github.com/walterpaulo/19736480b98b63c5d53d48c713ff5a6d)
 - [Pendrive Botável](https://gist.github.com/walterpaulo/d1781282629574df11684ef12c8aa42c)

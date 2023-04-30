@@ -105,6 +105,7 @@
 
 **Códigos**
 
+* [Converter Texto em Áudio - JavaScript e HTML](https://walterpaulo.github.io/texto-em-audio-html/)
 * [Municípios Brasileiros - Baixar PDF OU Excel](https://walterpaulo.github.io/municipios-brasileiro-baixar-pdf-excel-j2s)
 * [ Campos Harmônicos - os principais e mais utilizados ](https://walterpaulo.github.io/campos-harmonicos)
 * [ Gestão de Contas - Angular 14 + Json-server](https://github.com/walterpaulo/conta-ja)

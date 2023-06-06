@@ -94,6 +94,7 @@
 <br>
 
 **Dicas**
+- [Dica de Ruby on Rails(ROR)](https://gist.github.com/walterpaulo/52eb8ad8a9c82cdf70ab3890f6b1861e)
 - [GIT (Sistema de controle de versão distribuído)](https://gist.github.com/walterpaulo/94ed1850d86bca10b2e304de2d653525)
 - [Edição de vídeos - Reduzir tamanhos de vídeos...](https://gist.github.com/walterpaulo/c4601c9c16ff3531ed185a220c274a0a)
 - [Configuração De Ambiente Java ou similar](https://gist.github.com/walterpaulo/993faf4069c910d534571a23b4e50f21)

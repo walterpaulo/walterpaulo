@@ -2,501 +2,526 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Walter Paulo - Desenvolvedor Full Stack</title>
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <!-- Template Main CSS File -->
-  <style>
-    .profile-pic {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walter Paulo - Desenvolvedor Full Stack</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Template Main CSS File -->
+    <style>
+        :root {
+            --bg-primary: #f4f4f6;
+            --bg-secundary: #9d9dae;
+        }
 
-    body {
-      /* font-family: 'Roboto', sans-serif; */
-      font-size: 16px;
-      font-family: "Open Sans", sans-serif;
-      color: #444444;
-    }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        body {
+            /* font-family: 'Roboto', sans-serif; */
+            font-size: 16px;
+            font-family: "Open Sans", sans-serif;
+            color: #444444;
+        }
 
 
-    .menu-nav {
-      position: fixed;
-      top: -200px;
-      width: 100%;
-      background-color: #f1f1f1;
-      transition: top 0.3s ease-in-out;
-      z-index: 997;
-    }
+        .menu-nav {
+            position: fixed;
+            top: -200px;
+            width: 100%;
+            background-color: #f1f1f1;
+            transition: top 0.3s ease-in-out;
+            z-index: 997;
+        }
 
-    .menu-nav.visible {
-      top: 0;
-    }
+        .menu-nav.visible {
+            top: 0;
+        }
 
-    .bg-secondary {
-      opacity: 1;
-    }
+        .bg-secondary {
+            opacity: 1;
+        }
 
-    h1,
-    h2,
-    h3 {
-      font-weight: 700;
-    }
+        h1,
+        h2,
+        h3 {
+            font-weight: 700;
+        }
 
-    p {
-      line-height: 1.6;
-      display: block;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      margin-inline-start: 0px;
-      margin-inline-end: 0px;
-    }
+        p {
+            line-height: 1.6;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
 
-    .scroll-up-button {
-      display: none;
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      z-index: 9999;
-      text-align: center;
-      line-height: 40px;
-      background-color: #444444;
-      transition: opacity 0.3s ease;
-    }
+        .scroll-up-button {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            z-index: 9999;
+            text-align: center;
+            line-height: 40px;
+            background-color: #444444;
+            transition: opacity 0.3s ease;
+        }
 
-    .scroll-up-button:hover {
-      opacity: 1;
-    }
+        .scroll-up-button:hover {
+            opacity: 1;
+        }
 
-    .content-section {
-      height: 100vh;
-      width: 100%;
-      padding-top: 7.5rem;
-      padding-bottom: 7.5rem;
-    }
+        .content-section {
+            height: 100vh;
+            width: 100%;
+            padding-top: 7.5rem;
+            padding-bottom: 7.5rem;
+        }
 
-    .content-section-heading h2,
-    .content-section-heading .h2 {
-      font-size: 3rem;
-    }
+        .content-section-heading h2,
+        .content-section-heading .h2 {
+            font-size: 3rem;
+        }
 
-    .content-section-heading h3,
-    .content-section-heading .h3 {
-      font-size: 1rem;
-      text-transform: uppercase;
-    }
+        .content-section-heading h3,
+        .content-section-heading .h3 {
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
 
-    .bg-light {
-      --bs-bg-opacity: 1;
-      background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
-    }
+        .bg-light {
+            --bs-bg-opacity: 1;
+            background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+        }
 
-    .text-bg-light {
-      color: #000 !important;
-      background-color: RGBA(248, 249, 250, var(--bs-bg-opacity, 1)) !important;
-    }
+        .text-bg-light {
+            color: #000 !important;
+            background-color: RGBA(248, 249, 250, var(--bs-bg-opacity, 1)) !important;
+        }
 
-    .m-titulo {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 62px;
-      z-index: 100;
-      margin-bottom: 0;
-      padding: 20px 0;
-    }
+        .m-titulo {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 60px;
+            z-index: 100;
+            margin-bottom: 0;
+            padding: 20px 0;
+            color: #58586b !important;
+        }
+        .bg-primario{
+            background-color: var(--bg-primary);
+        }
 
-    .conteudo {
-      padding-top: 4 4px;
-    }
+        .bg-secundario{
+            background-color: var(--bg-secundary);
+        }
 
-    .svg-inline--fa {
-      display: var(--fa-display, inline-block);
-      height: 1em;
-      overflow: visible;
-      vertical-align: -.125em;
-    }
-  </style>
+        .conteudo {
+            padding-top: 4 4px;
+            color: #7878a6 !important;
+        }
+
+        .svg-inline--fa {
+            display: var(--fa-display, inline-block);
+            height: 1em;
+            overflow: visible;
+            vertical-align: -.125em;
+        }
+    </style>
 </head>
 
 <body>
-  <section class="content-section bg-light" id="about">
-    <div class="container px-4 px-lg-5 text-center">
-      <div class="row gx-4 gx-lg-5 justify-content-center">
-        <div class="container text-center">
-          <img src="walter.png" alt="Foto de perfil" class="profile-pic rounded-circle">
-        </div>
-        <div class="col-lg-10">
-          <div data-aos="zoom-in">
-            <h2 class="text-bg-light">Walter Paulo</h2>
-          </div>
-          <p class="lead mb-2">
-          <div data-aos="fade-up">
-            <span id="element"></span>
-          </div>
-          </p>
-          <a class="btn btn-success me-2 mb-3" href="#sobremim">Sobre Mim</a>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="menu-nav">
-    <header class="bg-body-tertiary text-white shadow-sm p-1 m-0">
-      <div class="container text-center">
-        <h4 class="text-dark m-0">Walter Paulo</h4>
-        <p class="text-body-secondary h6 m-0 mb-2">Desenvolvedor Full Stack</p>
-      </div>
-    </header>
-  </div>
-  </div>
-
-  <a href="#about" class="scroll-up-button">
-    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#f8f9fa" class="bi bi-arrow-up-circle-fill"
-      viewBox="0 0 16 16">
-      <path
-        d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
-    </svg>
-  </a>
-
-  <section class="py-5 bg-success" href="#sobremim">
-    <div class="container">
-      <h2 class="text-center text-light m-titulo bg-success" id="sobremim">Sobre mim</h2>
-      <div class="container accordion-body bg-success">
-        <div class="conteudo">
-          <div data-aos="fade-up-right">
-            <p class="fs-5 mb-2 text-light text-monospace">Olá, meu nome é <strong>Walter Paulo</strong> e sou
-              formado em Sistemas
-              de Informação pela Faculdade Delta, localizada em Goiânia. Sou um programador web com habilidades em
-              diversas
-              linguagens de programação, incluindo Java, Ruby on Rails, JavaScript e outras. Além disso, sou um defensor
-              fervoroso do software livre e uso o sistema operacional Linux/GNU como minha opção preferida.</p>
-          </div>
-          <br>
-          <div data-aos="fade-up-left">
-            <p class="fs-5 mb-2 text-light text-monospace">Desde cedo, tive um interesse profundo em tecnologia
-              e
-              como ela pode
-              ser usada para melhorar nossas vidas cotidianas. Durante meus estudos universitários, desenvolvi
-              habilidades
-              em programação e aprendi a criar soluções tecnológicas para desafios complexos. Foi assim que descobri meu
-              amor pela programação web.</p>
-          </div>
-          <br>
-          <div data-aos="fade-up-right">
-            <p class="fs-5 mb-2 text-light text-monospace">Como cristão, acredito que a tecnologia pode ser
-              usada
-              para ajudar as
-              pessoas de muitas maneiras diferentes. Uma das maneiras pelas quais faço isso é usando meus conhecimentos
-              em
-              programação para criar sites e aplicativos que ajudam a conectar as pessoas e a facilitar a comunicação.
-            </p>
-          </div>
-          <br>
-          <div data-aos="fade-up-left">
-            <p class="fs-5 mb-2 text-light text-monospace">Embora tenha habilidades em várias linguagens de
-              programação, sou
-              particularmente apaixonado por Java e Ruby on Rails, devido à sua simplicidade e eficiência. Acredito que
-              essas linguagens são especialmente adequadas para a criação de aplicativos web robustos e escaláveis. Como
-              um
-              programador web experiente, estou constantemente atualizando minhas habilidades em linguagens de
-              programação
-              emergentes para garantir que possa fornecer as soluções tecnológicas mais inovadoras para meus clientes.
-            </p>
-          </div>
-          <br>
-          <div data-aos="fade-up-right">
-            <p class="fs-5 mb-2 text-light text-monospace">Em resumo, sou um programador web altamente
-              qualificado,
-              defensor do
-              software livre e apoiador do sistema operacional Linux/GNU. Espero poder usar minhas habilidades e
-              conhecimentos para ajudar as pessoas a alcançarem seus objetivos e tornar o mundo um lugar melhor.</p>
-          </div>
-        </div>
-        <br>
-        <br>
-        <br>
-      </div>
-  </section>
-  <h2 class="m-titulo text-center bg-body-tertiary text-black-50">Habilidade</h2>
-  <section class="py-5 bg-body-tertiary" href="#projeto">
-    <div class="container">
-      <div class="container accordion-body">
-        <div class="conteudo mt-5">
-          <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-            <div data-aos="fade-up-right">
-              <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm border-light position-relative mt-5">
-                  <div class="card-header py-3 bg-white border-primary">
-                    <div
-                      class="bg-primary p-3 mb-2 rounded-circle rounded w-20 position-absolute top-0 start-50 translate-middle badge rounded-pill">
-                      <img src="images/frontend-icon.svg" alt="Ícone Frontend" class="img-fluid">
+    <section class="content-section bg-light" id="about">
+        <div class="container px-4 px-lg-5 text-center">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="container text-center">
+                    <img src="walter.png" alt="Foto de perfil" class="profile-pic rounded-circle">
+                </div>
+                <div class="col-lg-10">
+                    <div data-aos="zoom-in">
+                        <h2 class="text-bg-light">Walter Paulo</h2>
                     </div>
-                    <h4 class="my-0 fw-normal text-secondary mt-4">Frontend</h4>
+                    <p class="lead mb-2">
+                    <div data-aos="fade-up">
+                        <span id="element"></span>
+                    </div>
+                    </p>
+                    <a class="btn btn-secondary me-2 mb-3" href="#sobremim">Sobre Mim</a>
+                </div>
+            </div>
+    </section>
+    <a href="#about" class="scroll-up-button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#f8f9fa" class="bi bi-arrow-up-circle-fill"
+            viewBox="0 0 16 16">
+            <path
+                d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+        </svg>
+    </a>
+    <nav class="menu-nav">
+        <header class="bg-body-tertiary text-white shadow-sm p-1 m-0">
+            <div class="container text-center">
+                <h4 class="text-dark m-0">Walter Paulo</h4>
+                <p class="text-body-secondary h6 m-0 mb-2">Desenvolvedor Full Stack</p>
+            </div>
+        </header>
+    </nav>
+    <h2 class="text-center text-light m-titulo bg-white" id="sobremim">Sobre mim</h2>
+    <section class="py-5">
+        <div class="container">
+            <div class="conteudo">
+                <div data-aos="fade-up">
+                    <p class="fs-5 mb-2 text-light text-monospace text-dark">Olá, meu nome é <strong>Walter
+                            Paulo</strong> e
+                        sou
+                        formado em Sistemas
+                        de Informação pela Faculdade Delta, localizada em Goiânia. Sou um programador web com
+                        habilidades em
+                        diversas
+                        linguagens de programação, incluindo Java, Ruby on Rails, JavaScript e outras. Além disso, sou
+                        um
+                        defensor
+                        fervoroso do software livre e uso o sistema operacional Linux/GNU como minha opção preferida.
+                    </p>
+                </div>
+                <br>
+                <div data-aos="fade-up">
+                    <p class="fs-5 mb-2 text-light text-monospace text-dark">Desde cedo, tive um interesse profundo em
+                        tecnologia
+                        e
+                        como ela pode
+                        ser usada para melhorar nossas vidas cotidianas. Durante meus estudos universitários, desenvolvi
+                        habilidades
+                        em programação e aprendi a criar soluções tecnológicas para desafios complexos. Foi assim que
+                        descobri meu
+                        amor pela programação web.</p>
+                </div>
+                <br>
+                <div data-aos="fade-up-right">
+                    <p class="fs-5 mb-2 text-light text-monospace text-dark">Como cristão, acredito que a tecnologia
+                        pode
+                        ser
+                        usada
+                        para ajudar as
+                        pessoas de muitas maneiras diferentes. Uma das maneiras pelas quais faço isso é usando meus
+                        conhecimentos
+                        em
+                        programação para criar sites e aplicativos que ajudam a conectar as pessoas e a facilitar a
+                        comunicação.
+                    </p>
+                </div>
+                <br>
+                <div data-aos="sfade-up-left">
+                    <p class="fs-5 mb-2 text-light text-monospace text-dark">Embora tenha habilidades em várias
+                        linguagens
+                        de
+                        programação, sou
+                        particularmente apaixonado por Java e Ruby on Rails, devido à sua simplicidade e eficiência.
+                        Acredito que
+                        essas linguagens são especialmente adequadas para a criação de aplicativos web robustos e
+                        escaláveis. Como
+                        um
+                        programador web experiente, estou constantemente atualizando minhas habilidades em linguagens de
+                        programação
+                        emergentes para garantir que possa fornecer as soluções tecnológicas mais inovadoras para meus
+                        clientes.
+                    </p>
+                </div>
+                <br>
+                <div data-aos="fade-up-right">
+                    <p class="fs-5 mb-2 text-light text-monospace text-dark">Em resumo, sou um programador web altamente
+                        qualificado,
+                        defensor do
+                        software livre e apoiador do sistema operacional Linux/GNU. Espero poder usar minhas habilidades
+                        e
+                        conhecimentos para ajudar as pessoas a alcançarem seus objetivos e tornar o mundo um lugar
+                        melhor.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h2 class="text-center text-light text-black m-titulo bg-primario" id="sobremim">Ferramentas de Trabalho</h2>
+    <section class="bg-primario">
+        <div class="container">
+            <div class="container accordion-body">
+              <div class="conteudo pt-5">
+                <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                  <div data-aos="fade-up-right">
+                    <div class="col">
+                      <div class="card mb-4 rounded-3 shadow-sm border-light position-relative mt-5">
+                        <div class="card-header py-3 bg-white bg-secundario">
+                          <div
+                            class="bg-secundario p-3 mb-2 rounded-circle rounded w-20 position-absolute top-0 start-50 translate-middle badge rounded-pill">
+                            <img src="images/frontend-icon.svg" alt="Ícone Frontend" class="img-fluid">
+                          </div>
+                          <h4 class="my-0 fw-normal text-secondary mt-4">Frontend</h4>
+                        </div>
+                        <div class="card-body">
+                          <ul class="  list-unstyled text-secondary">
+                            <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
+                                focusable="false" data-prefix="fas" data-icon="check" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="#9d9dae"
+                                  d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
+                                </path>
+                              </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->React/Redux/Angular
+                            </li>
+                            <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
+                                focusable="false" data-prefix="fas" data-icon="check" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="#9d9dae"
+                                  d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
+                                </path>
+                              </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->Javascript
+                            </li>
+                            <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
+                                focusable="false" data-prefix="fas" data-icon="check" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="#9d9dae"
+                                  d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
+                                </path>
+                              </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->Node.js
+                            </li>
+                            <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
+                                focusable="false" data-prefix="fas" data-icon="check" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="#9d9dae"
+                                  d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
+                                </path>
+                              </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->Webpack/Thymeleaf
+                            </li>
+                            <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
+                                focusable="false" data-prefix="fas" data-icon="check" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="#9d9dae"
+                                  d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
+                                </path>
+                              </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->HTML/CSS/SASS/LESS
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="card-body">
-                    <ul class="  list-unstyled text-secondary">
-                      <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
-                          focusable="false" data-prefix="fas" data-icon="check" role="img"
-                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-                          <path fill="currentColor"
-                            d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
-                          </path>
-                        </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->React/Redux/Angular
-                      </li>
-                      <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
-                          focusable="false" data-prefix="fas" data-icon="check" role="img"
-                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-                          <path fill="currentColor"
-                            d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
-                          </path>
-                        </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->Javascript
-                      </li>
-                      <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
-                          focusable="false" data-prefix="fas" data-icon="check" role="img"
-                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-                          <path fill="currentColor"
-                            d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
-                          </path>
-                        </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->Node.js
-                      </li>
-                      <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
-                          focusable="false" data-prefix="fas" data-icon="check" role="img"
-                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-                          <path fill="currentColor"
-                            d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
-                          </path>
-                        </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->Webpack/Thymeleaf
-                      </li>
-                      <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
-                          focusable="false" data-prefix="fas" data-icon="check" role="img"
-                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-                          <path fill="currentColor"
-                            d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
-                          </path>
-                        </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->HTML/CSS/SASS/LESS
-                      </li>
-                    </ul>
+                  <div data-aos="fade-up">
+                    <div class="col">
+                      <div class="card mb-4 rounded-3 shadow-sm border-light position-relative mt-5">
+                        <div class=" card-header py-3 bg-white bg-secundario">
+                          <div
+                            class="bg-secundario p-3 mb-2 rounded-circle rounded w-20 position-absolute top-0 start-50 translate-middle badge rounded-pill">
+                            <img src="images/backend-icon.svg" alt="Ícone Frontend" class="img-fluid">
+                          </div>
+                          <h4 class="my-0 fw-normal text-secondary mt-4">Backend</h4>
+                        </div>
+                        <div class="card-body">
+                          <ul class="skills-list list-unstyled text-secondary">
+                            <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
+                                focusable="false" data-prefix="fas" data-icon="check" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="#9d9dae"
+                                  d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
+                                </path>
+                              </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->Java
+                            </li>
+                            <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
+                                focusable="false" data-prefix="fas" data-icon="check" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="#9d9dae"
+                                  d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
+                                </path>
+                              </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->Python/Django
+                            </li>
+                            <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
+                                focusable="false" data-prefix="fas" data-icon="check" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="#9d9dae"
+                                  d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
+                                </path>
+                              </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->Ruby/Rails
+                            </li>
+                            <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
+                                focusable="false" data-prefix="fas" data-icon="check" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="#9d9dae"
+                                  d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
+                                </path>
+                              </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->PostgresSQL/MySQL
+                            </li>
+                            <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
+                                focusable="false" data-prefix="fas" data-icon="check" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="#9d9dae"
+                                  d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
+                                </path>
+                              </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->MongoDB
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-aos="fade-up-left">
+                    <div class="col">
+                      <div class="card mb-4 rounded-3 shadow-sm border-light position-relative mt-5">
+                        <div class="card-header py-3 bg-white bg-secudario  ">
+                          <div
+                            class="bg-secundario p-3 mb-2 rounded-circle rounded w-20 position-absolute top-0 start-50 translate-middle badge rounded-pill">
+                            <img src="images/other-skills-icon.svg" alt="Ícone Frontend" class="img-fluid">
+                          </div>
+                          <h4 class="my-0 fw-normal text-secondary mt-4">Others</h4>
+                        </div>
+                        <div class="card-body">
+                          <ul class="skills-list list-unstyled text-secondary">
+                            <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
+                                focusable="false" data-prefix="fas" data-icon="check" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="#9d9dae"
+                                  d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
+                                </path>
+                              </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->DevOps
+                            </li>
+                            <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
+                                focusable="false" data-prefix="fas" data-icon="check" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="#9d9dae"
+                                  d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
+                                </path>
+                              </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->Unit
+                              Testing</li>
+                            <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
+                                focusable="false" data-prefix="fas" data-icon="check" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                <path fill="#9d9dae"
+                                  d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
+                                </path>
+                              </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->UX/Wireframing
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div data-aos="fade-up">
-              <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm border-light position-relative mt-5">
-                  <div class=" card-header py-3 bg-white border-primary">
-                    <div
-                      class="bg-primary p-3 mb-2 rounded-circle rounded w-20 position-absolute top-0 start-50 translate-middle badge rounded-pill">
-                      <img src="images/backend-icon.svg" alt="Ícone Frontend" class="img-fluid">
-                    </div>
-                    <h4 class="my-0 fw-normal text-secondary mt-4">Backend</h4>
-                  </div>
-                  <div class="card-body">
-                    <ul class="skills-list list-unstyled text-secondary">
-                      <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
-                          focusable="false" data-prefix="fas" data-icon="check" role="img"
-                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-                          <path fill="currentColor"
-                            d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
-                          </path>
-                        </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->Java
-                      </li>
-                      <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
-                          focusable="false" data-prefix="fas" data-icon="check" role="img"
-                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-                          <path fill="currentColor"
-                            d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
-                          </path>
-                        </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->Python/Django
-                      </li>
-                      <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
-                          focusable="false" data-prefix="fas" data-icon="check" role="img"
-                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-                          <path fill="currentColor"
-                            d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
-                          </path>
-                        </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->Ruby/Rails
-                      </li>
-                      <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
-                          focusable="false" data-prefix="fas" data-icon="check" role="img"
-                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-                          <path fill="currentColor"
-                            d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
-                          </path>
-                        </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->PostgresSQL/MySQL
-                      </li>
-                      <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
-                          focusable="false" data-prefix="fas" data-icon="check" role="img"
-                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-                          <path fill="currentColor"
-                            d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
-                          </path>
-                        </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->MongoDB
-                      </li>
-                    </ul>
-                  </div>
+          </div>
+    </section>
+    <footer class="m-titulo text-center bg-body-tertiary text-black-50  content-section pt-5">
+        <div data-aos="fade-up" data-aos-duration="3000">
+            <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
+              <div class="row">
+                <div class="col-lg-3 mb-3">
+                  <a class="d-inline-flex align-items-center mb-2 text-body-secondary text-decoration-none" href="/"
+                    aria-label="Bootstrap" title="Walter Paulo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block me-2" viewBox="0 0 118 94"
+                      role="img">
+                      <title>Walter Paulo</title>
+                      <image
+                        href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwLjQ5MDcgMjcuNjQxOEM0LjE0NDU1IDIyLjMxNjggMy4zMTY3OSAxMi44NTU1IDguNjQxODEgNi41MDkzM1Y2LjUwOTMzQzEzLjk2NjggMC4xNjMyMTQgMjMuNDI4MiAtMC42NjQ1NDYgMjkuNzc0MyA0LjY2MDQ4VjQuNjYwNDhDMzYuMTIwNCA5Ljk4NTUxIDM2Ljk0ODIgMTkuNDQ2OCAzMS42MjMxIDI1Ljc5M0wyMS45ODEzIDM3LjI4MzZMMTAuNDkwNyAyNy42NDE4WiIgZmlsbD0iIzBCMEY2NCIvPgo8cGF0aCBkPSJNMTggMzdIMjZWNDBIMThWMzdaIiBmaWxsPSIjMEIwRjY0Ii8+CjxwYXRoIGQ9Ik0zMC44NSA4LjU0TDI2LjM2IDIzSDIzLjkzTDIwLjc3IDEzLjEyQzIwLjY4MzMgMTIuODggMjAuNjAzMyAxMi41ODY3IDIwLjUzIDEyLjI0QzIwLjQ5IDEyLjQwNjcgMjAuNDUgMTIuNTYzMyAyMC40MSAxMi43MUMyMC4zNyAxMi44NTY3IDIwLjMyNjcgMTIuOTkzMyAyMC4yOCAxMy4xMkwxNy4wOSAyM0gxNC42NUwxMC4xNyA4LjU0SDEyLjQyQzEyLjY1MzMgOC41NCAxMi44NDY3IDguNTk2NjcgMTMgOC43MUMxMy4xNiA4LjgxNjY3IDEzLjI2NjcgOC45NjMzMyAxMy4zMiA5LjE1TDE1Ljc4IDE3LjhDMTUuODMzMyAxOC4wMTMzIDE1Ljg4MzMgMTguMjQ2NyAxNS45MyAxOC41QzE1Ljk4MzMgMTguNzQ2NyAxNi4wMzY3IDE5LjAwNjcgMTYuMDkgMTkuMjhDMTYuMTQzMyAxOSAxNi4yIDE4LjczNjcgMTYuMjYgMTguNDlDMTYuMzI2NyAxOC4yNDMzIDE2LjM5NjcgMTguMDEzMyAxNi40NyAxNy44TDE5LjMxIDkuMTVDMTkuMzYzMyA4Ljk5NjY3IDE5LjQ2NjcgOC44NTY2NyAxOS42MiA4LjczQzE5Ljc4IDguNjAzMzMgMTkuOTczMyA4LjU0IDIwLjIgOC41NEgyMC45OUMyMS4yMjMzIDguNTQgMjEuNDEzMyA4LjU5NjY3IDIxLjU2IDguNzFDMjEuNzA2NyA4LjgyMzMzIDIxLjgxNjcgOC45NyAyMS44OSA5LjE1TDI0LjcyIDE3LjhDMjQuODYgMTguMjEzMyAyNC45ODY3IDE4LjY5IDI1LjEgMTkuMjNDMjUuMTg2NyAxOC43MDMzIDI1LjI4MzMgMTguMjI2NyAyNS4zOSAxNy44TDI3Ljg1IDkuMTVDMjcuODkgOC45ODMzMyAyNy45OSA4Ljg0IDI4LjE1IDguNzJDMjguMzE2NyA4LjYgMjguNTEzMyA4LjU0IDI4Ljc0IDguNTRIMzAuODVaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K"
+                        x="0" y="0" width="118" height="94"></image>
+                    </svg>
+                    <span class="fs-5">Walter Paulo</span>
+                  </a>
+                  <ul class="list-unstyled small">
+                    <li class="mb-2">Graduado em Sistemas de Informação na <a href="https://faculdadedelta.com.br/"
+                        target="_blank" title="Faculdade Delta">Faculdade Delta</a>, desenvolvedor de software <a
+                        href="#sobremim" target="_blank" title="sobre mim">sobre mim</a>.</li>
+                  </ul>
                 </div>
-              </div>
-            </div>
-            <div data-aos="fade-up-left">
-              <div class="col">
-                <div class="card mb-4 rounded-3 shadow-sm border-light position-relative mt-5">
-                  <div class="card-header py-3 bg-white border-primary">
-                    <div
-                      class="bg-primary p-3 mb-2 rounded-circle rounded w-20 position-absolute top-0 start-50 translate-middle badge rounded-pill">
-                      <img src="images/other-skills-icon.svg" alt="Ícone Frontend" class="img-fluid">
-                    </div>
-                    <h4 class="my-0 fw-normal text-secondary mt-4">Others</h4>
-                  </div>
-                  <div class="card-body">
-                    <ul class="skills-list list-unstyled text-secondary">
-                      <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
-                          focusable="false" data-prefix="fas" data-icon="check" role="img"
-                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-                          <path fill="currentColor"
-                            d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
-                          </path>
-                        </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->DevOps
-                      </li>
-                      <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
-                          focusable="false" data-prefix="fas" data-icon="check" role="img"
-                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-                          <path fill="currentColor"
-                            d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
-                          </path>
-                        </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->Unit
-                        Testing</li>
-                      <li class="mb-2"><svg class="svg-inline--fa fa-check me-2 text-primary" aria-hidden="true"
-                          focusable="false" data-prefix="fas" data-icon="check" role="img"
-                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
-                          <path fill="currentColor"
-                            d="M438.6 105.4C451.1 117.9 451.1 138.1 438.6 150.6L182.6 406.6C170.1 419.1 149.9 419.1 137.4 406.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4C21.87 220.9 42.13 220.9 54.63 233.4L159.1 338.7L393.4 105.4C405.9 92.88 426.1 92.88 438.6 105.4H438.6z">
-                          </path>
-                        </svg><!-- <i class="fas fa-check me-2 text-primary"></i> Font Awesome fontawesome.com -->UX/Wireframing
-                      </li>
-                    </ul>
-                  </div>
+                <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+                  <h5>Tecnologias para Backend</h5>
+                  <ul class="list-unstyled">
+                    <li class="mb-2"><a>Java</a></li>
+                    <li class="mb-2"><a>Node Js</a></li>
+                    <li class="mb-2"><a>Ruby on Rails (RoR)</a></li>
+                    <li class="mb-2"><a>Python</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                  <h5>Tecnologias para Frontend</h5>
+                  <ul class="list-unstyled">
+                    <li class="mb-2"><a>Angula JS</a></li>
+                    <li class="mb-2"><a>HTML/CSS</a></li>
+                    <li class="mb-2"><a>JavaScript</a></li>
+                    <li class="mb-2"><a>React JS</a></li>
+                    <li class="mb-2"><a>Thymeleaf</a></li>
+                    <li class="mb-2"><a>Vite JS</a></li>
+                    <li class="mb-2"><a>Webpack</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                  <h5>Estudante em Devops</h5>
+                  <ul class="list-unstyled">
+                    <li class="mb-2"><a>Ansible</a></li>
+                    <li class="mb-2"><a>Docker</a></li>
+                    <li class="mb-2"><a>Docker Swa</a></li>
+                    <li class="mb-2"><a>GNU/Linux</a></li>
+                    <li class="mb-2"><a>Terraform</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-lg-2 mb-3">
+                  <h5>Tutorias</h5>
+                  <ul class="list-unstyled">
+                    <li class="mb-2"><a href="https://github.com/walterpaulo/treinamento21DiasJava/blob/main/README.md"
+                        target="_blank" title="Desafio 21 dias em Java">Desafio 21 dias em Java</a></li>
+                    <li class="mb-2"><a href="https://github.com/walterpaulo/logica-python/blob/main/README.md" target="_blank"
+                        title="Desafio 21 dias de lógica em Python">Desafio 21 dias de lógica em Python</a></li>
+                    <li class="mb-2"><a href="https://github.com/walterpaulo/Desafio-DevOps-21-dias/blob/master/README.md"
+                        target="_blank" title="Desafio 21 dias em DevOps">Desafio 21 dias em DevOps</a></li>
+                    <li class="mb-2"><a
+                        href="https://www.linkedin.com/posts/walter-paulo-37b215117_base-para-api-activity-6927166536197517312-HMQT?utm_source=linkedin_share&amp;utm_medium=member_desktop_web"
+                        target="_blank" title="Base para construção de API">Base para construção de API</a></li>
+                    <li class="mb-2"><a
+                        href="https://www.linkedin.com/posts/walter-paulo-37b215117_rails-partials-activity-6927258404386127872--AZi?utm_source=linkedin_share&amp;utm_medium=member_desktop_web"
+                        target="_blank" title="Renderização de páginas HTML - Ruby on Rails">Renderização de páginas HTML - Ruby
+                        on Rails</a></li>
+                  </ul>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="m-titulo text-center bg-body-tertiary text-black-50  content-section pt-5">
-    <div data-aos="fade-up" data-aos-duration="3000">
-      <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
-        <div class="row">
-          <div class="col-lg-3 mb-3">
-            <a class="d-inline-flex align-items-center mb-2 text-body-secondary text-decoration-none" href="/"
-              aria-label="Bootstrap" title="Walter Paulo">
-              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block me-2" viewBox="0 0 118 94"
-                role="img">
-                <title>Walter Paulo</title>
-                <image
-                  href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwLjQ5MDcgMjcuNjQxOEM0LjE0NDU1IDIyLjMxNjggMy4zMTY3OSAxMi44NTU1IDguNjQxODEgNi41MDkzM1Y2LjUwOTMzQzEzLjk2NjggMC4xNjMyMTQgMjMuNDI4MiAtMC42NjQ1NDYgMjkuNzc0MyA0LjY2MDQ4VjQuNjYwNDhDMzYuMTIwNCA5Ljk4NTUxIDM2Ljk0ODIgMTkuNDQ2OCAzMS42MjMxIDI1Ljc5M0wyMS45ODEzIDM3LjI4MzZMMTAuNDkwNyAyNy42NDE4WiIgZmlsbD0iIzBCMEY2NCIvPgo8cGF0aCBkPSJNMTggMzdIMjZWNDBIMThWMzdaIiBmaWxsPSIjMEIwRjY0Ii8+CjxwYXRoIGQ9Ik0zMC44NSA4LjU0TDI2LjM2IDIzSDIzLjkzTDIwLjc3IDEzLjEyQzIwLjY4MzMgMTIuODggMjAuNjAzMyAxMi41ODY3IDIwLjUzIDEyLjI0QzIwLjQ5IDEyLjQwNjcgMjAuNDUgMTIuNTYzMyAyMC40MSAxMi43MUMyMC4zNyAxMi44NTY3IDIwLjMyNjcgMTIuOTkzMyAyMC4yOCAxMy4xMkwxNy4wOSAyM0gxNC42NUwxMC4xNyA4LjU0SDEyLjQyQzEyLjY1MzMgOC41NCAxMi44NDY3IDguNTk2NjcgMTMgOC43MUMxMy4xNiA4LjgxNjY3IDEzLjI2NjcgOC45NjMzMyAxMy4zMiA5LjE1TDE1Ljc4IDE3LjhDMTUuODMzMyAxOC4wMTMzIDE1Ljg4MzMgMTguMjQ2NyAxNS45MyAxOC41QzE1Ljk4MzMgMTguNzQ2NyAxNi4wMzY3IDE5LjAwNjcgMTYuMDkgMTkuMjhDMTYuMTQzMyAxOSAxNi4yIDE4LjczNjcgMTYuMjYgMTguNDlDMTYuMzI2NyAxOC4yNDMzIDE2LjM5NjcgMTguMDEzMyAxNi40NyAxNy44TDE5LjMxIDkuMTVDMTkuMzYzMyA4Ljk5NjY3IDE5LjQ2NjcgOC44NTY2NyAxOS42MiA4LjczQzE5Ljc4IDguNjAzMzMgMTkuOTczMyA4LjU0IDIwLjIgOC41NEgyMC45OUMyMS4yMjMzIDguNTQgMjEuNDEzMyA4LjU5NjY3IDIxLjU2IDguNzFDMjEuNzA2NyA4LjgyMzMzIDIxLjgxNjcgOC45NyAyMS44OSA5LjE1TDI0LjcyIDE3LjhDMjQuODYgMTguMjEzMyAyNC45ODY3IDE4LjY5IDI1LjEgMTkuMjNDMjUuMTg2NyAxOC43MDMzIDI1LjI4MzMgMTguMjI2NyAyNS4zOSAxNy44TDI3Ljg1IDkuMTVDMjcuODkgOC45ODMzMyAyNy45OSA4Ljg0IDI4LjE1IDguNzJDMjguMzE2NyA4LjYgMjguNTEzMyA4LjU0IDI4Ljc0IDguNTRIMzAuODVaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K"
-                  x="0" y="0" width="118" height="94"></image>
-              </svg>
-              <span class="fs-5">Walter Paulo</span>
-            </a>
-            <ul class="list-unstyled small">
-              <li class="mb-2">Graduado em Sistemas de Informação na <a href="https://faculdadedelta.com.br/"
-                  target="_blank" title="Faculdade Delta">Faculdade Delta</a>, desenvolvedor de software <a
-                  href="#sobremim" target="_blank" title="sobre mim">sobre mim</a>.</li>
-            </ul>
-          </div>
-          <div class="col-6 col-lg-2 offset-lg-1 mb-3">
-            <h5>Tecnologias para Backend</h5>
-            <ul class="list-unstyled">
-              <li class="mb-2"><a>Java</a></li>
-              <li class="mb-2"><a>Node Js</a></li>
-              <li class="mb-2"><a>Ruby on Rails (RoR)</a></li>
-              <li class="mb-2"><a>Python</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-lg-2 mb-3">
-            <h5>Tecnologias para Frontend</h5>
-            <ul class="list-unstyled">
-              <li class="mb-2"><a>Angula JS</a></li>
-              <li class="mb-2"><a>HTML/CSS</a></li>
-              <li class="mb-2"><a>JavaScript</a></li>
-              <li class="mb-2"><a>React JS</a></li>
-              <li class="mb-2"><a>Thymeleaf</a></li>
-              <li class="mb-2"><a>Vite JS</a></li>
-              <li class="mb-2"><a>Webpack</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-lg-2 mb-3">
-            <h5>Estudante em Devops</h5>
-            <ul class="list-unstyled">
-              <li class="mb-2"><a>Ansible</a></li>
-              <li class="mb-2"><a>Docker</a></li>
-              <li class="mb-2"><a>Docker Swa</a></li>
-              <li class="mb-2"><a>GNU/Linux</a></li>
-              <li class="mb-2"><a>Terraform</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-lg-2 mb-3">
-            <h5>Tutorias</h5>
-            <ul class="list-unstyled">
-              <li class="mb-2"><a href="https://github.com/walterpaulo/treinamento21DiasJava/blob/main/README.md"
-                  target="_blank" title="Desafio 21 dias em Java">Desafio 21 dias em Java</a></li>
-              <li class="mb-2"><a href="https://github.com/walterpaulo/logica-python/blob/main/README.md" target="_blank"
-                  title="Desafio 21 dias de lógica em Python">Desafio 21 dias de lógica em Python</a></li>
-              <li class="mb-2"><a href="https://github.com/walterpaulo/Desafio-DevOps-21-dias/blob/master/README.md"
-                  target="_blank" title="Desafio 21 dias em DevOps">Desafio 21 dias em DevOps</a></li>
-              <li class="mb-2"><a
-                  href="https://www.linkedin.com/posts/walter-paulo-37b215117_base-para-api-activity-6927166536197517312-HMQT?utm_source=linkedin_share&amp;utm_medium=member_desktop_web"
-                  target="_blank" title="Base para construção de API">Base para construção de API</a></li>
-              <li class="mb-2"><a
-                  href="https://www.linkedin.com/posts/walter-paulo-37b215117_rails-partials-activity-6927258404386127872--AZi?utm_source=linkedin_share&amp;utm_medium=member_desktop_web"
-                  target="_blank" title="Renderização de páginas HTML - Ruby on Rails">Renderização de páginas HTML - Ruby
-                  on Rails</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-  <script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
 
     AOS.init();
     window.addEventListener('scroll', function () {
-      var menu = document.querySelector('.menu-nav');
-      var scrollPos = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-      var scrollButton = document.querySelector('.scroll-up-button');
+        var menu = document.querySelector('.menu-nav');
+        var scrollPos = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+        var scrollButton = document.querySelector('.scroll-up-button');
 
-      if (window.scrollY > 300) {
-        menu.classList.add('visible');
-        scrollButton.style.display = 'block';
-      } else {
-        menu.classList.remove('visible');
-        scrollButton.style.display = 'none';
-      }
+        if (window.scrollY > 300) {
+            menu.classList.add('visible');
+            scrollButton.style.display = 'block';
+            
+        } else {
+            menu.classList.remove('visible');
+            scrollButton.style.display = 'none';
+        }
     });
     var typed = new Typed('#element', {
-      strings: ['Programador Web.', 'Programador Java.', 'Programador Ruby On Rails.', 'Desenvolvedor Full Stack...'],
-      typeSpeed: 50,
+        strings: ['Programador Web.', 'Programador Java.', 'Programador Ruby On Rails.', 'Desenvolvedor Full Stack...'],
+        typeSpeed: 50,
     });
-  </script>
+</script>
 
-</body>
-
-</html>
+</html> 

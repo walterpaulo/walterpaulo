@@ -9,7 +9,7 @@ $.fn.percorrerParagrafos = function() {
   // var totalParagrafos = paragrafos.length;
 
   if (index < paragrafos.length) {
-    var novoParagrafo = $('<p>' + paragrafos[index] + '</p>');
+    var novoParagrafo = $('<p data-aos="fade-up">' + paragrafos[index] + '</p>');
     $(this).find('[id]:last').before(novoParagrafo);
     index++;
   }else{

@@ -21,6 +21,11 @@
 
 		};
 
+	$('#subir').click(function(){
+		$('html, body').animate({scrollTop:0}, 'slow');
+		return false;
+	});
+
 	// Breakpoints.
 		breakpoints({
 			xlarge:  [ '1281px',  '1800px' ],

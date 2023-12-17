@@ -296,6 +296,24 @@ input, select, textarea {
 			}
 
 		}
+	    .scroll-up-button {
+			display: none;
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			z-index: 9999;
+			text-align: center;
+			line-height: 40px;
+			background-color: #444444;
+			transition: opacity 0.3s ease;
+		  }
+	  
+		  .scroll-up-button:hover {
+			opacity: 1;
+		  }
 
 /* Row */
 

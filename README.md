@@ -94,6 +94,7 @@
 <br>
 
 **Dicas**
+- [Configuração do Repo MAVEN Eclipse](https://gist.github.com/walterpaulo/9962d2e3b2502ba1fc692e42429e9a3b)
 - [Dica de Ruby on Rails(ROR)](https://gist.github.com/walterpaulo/52eb8ad8a9c82cdf70ab3890f6b1861e)
 - [GIT (Sistema de controle de versão distribuído)](https://gist.github.com/walterpaulo/94ed1850d86bca10b2e304de2d653525)
 - [Edição de vídeos - Reduzir tamanhos de vídeos...](https://gist.github.com/walterpaulo/c4601c9c16ff3531ed185a220c274a0a)

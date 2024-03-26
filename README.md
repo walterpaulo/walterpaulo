@@ -94,6 +94,7 @@
 <br>
 
 **Dicas**
+- [Leitura de Texto em Imagem: Pytesseract e Ppencv](https://gist.github.com/walterpaulo/b54784e59e5648ae6b6e9681f3114622)
 - [Pyenv: Gerenciamento de Versões do Python](https://gist.github.com/walterpaulo/5f87d506203758266b7d5341a06bad27)
 - [Edição de vídeo com FFmpeg](https://gist.github.com/walterpaulo/c4601c9c16ff3531ed185a220c274a0a)
 - [Configuração do Repo MAVEN Eclipse](https://gist.github.com/walterpaulo/9962d2e3b2502ba1fc692e42429e9a3b)

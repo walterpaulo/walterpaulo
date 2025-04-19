@@ -94,6 +94,7 @@
 <br>
 
 **Dicas**
+- [📸 Como Usar a Câmera Orbbec 3D no Linux](https://github.com/walterpaulo/geral/blob/main/README_orbbec_linux.md)
 - [🚀 Java: Comparação entre ArrayList e LinkedList](https://github.com/walterpaulo/java-arraylist-vz-linkedlist)
 - [Leitura de Texto em Imagem: Pytesseract e Ppencv](https://gist.github.com/walterpaulo/b54784e59e5648ae6b6e9681f3114622)
 - [Pyenv: Gerenciamento de Versões do Python](https://gist.github.com/walterpaulo/5f87d506203758266b7d5341a06bad27)

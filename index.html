@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>Walter Paulo - Dev Full Stack Web</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Desenvolvedor Full Stack, Desenvolvedor Web, Java e Ruby on Rails" />
+  <meta name="keywords" content="Java, Programação, Ruby, Linux, dev, RoR, Spring, Spring Boot, Java 17, Carrinho de Compra, Programador, Walter Paulo, Código, Code, Git, Solução, Fullstack, Desenvolvedor" />
+
+  <meta property="og:title" content="Walter Paulo - Programador Web" />
+  <meta property="og:description" content="Desenvolvedor Full Stack, Desenvolvedor Web, Java e Ruby on Rails" />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/26353933?v=4?s=400" />
+  <meta property="og:image:alt" content="Desenvolvedor Full Stack, Desenvolvedor Web, Java e Ruby on Rails" />
+  <meta property="og:url" content="https://www.walterpaulo.com.br" />
+  <meta property="og:site_name" content="Walter Paulo" />
+  <meta property="og:type" content="profile" />
+  <meta property="fb:app_id" content="1401488693436528" />
+  <meta property="twitter:card" content="summary_large_image" />
+
+  <link rel="fluid-icon" href="/img/walter.png" title="Walter Paulo - Dev" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!--- ===== NAV ===== --->
+  <nav id="nav">
+    <div class="container">
+      <a href="#" class="nav-logo">WP<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#Inicio">Início</a></li>
+        <li><a href="#Sobre">Sobre</a></li>
+        <li><a href="#Habilidades">Habilidades</a></li>
+        <li><a href="#Projetos">Projetos</a></li>
+        <li><a href="#Contato">Contato</a></li>
+        <li><a href="#orcamento" style="color:var(--accent);font-weight:700">Pedir Orçamento</a></li>
+      </ul>
+      <a href="#orcamento" class="btn btn-accent nav-cta-btn">Pedir Orçamento</a>
+      <div class="nav-social">
+        <a href="https://github.com/walterpaulo" target="_blank" rel="noreferrer noopener" aria-label="GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5c.08-1.25-.27-2.48-1-3.5c.28-1.15.28-2.35 0-3.5c0 0-1 0-3 1.5c-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5c-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"/>
+            <path d="M9 18c-4.51 2-5-2-7-2"/>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/walter-paulo-j" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+        </a>
+      </div>
+      <button class="nav-toggle" aria-label="Menu" id="menuToggle">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 5h16M4 12h16M4 19h16"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== MOBILE OVERLAY ===== -->
+  <div class="mobile-overlay" id="mobileMenu">
+    <div class="mobile-header">
+      <a href="#" class="nav-logo">WP<span>.</span></a>
+      <button class="mobile-close" aria-label="Fechar menu" id="menuClose">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 6L6 18M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+    <ul class="mobile-links">
+      <li><a href="#Inicio">Início</a></li>
+      <li><a href="#Sobre">Sobre</a></li>
+      <li><a href="#Habilidades">Habilidades</a></li>
+      <li><a href="#Projetos">Projetos</a></li>
+      <li><a href="#Contato">Contato</a></li>
+      <li><a href="#orcamento" class="btn btn-accent" style="width:100%;justify-content:center">Pedir Orçamento</a></li>
+    </ul>
+    <div class="mobile-social">
+      <a href="https://github.com/walterpaulo" target="_blank" rel="noreferrer noopener">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5c.08-1.25-.27-2.48-1-3.5c.28-1.15.28-2.35 0-3.5c0 0-1 0-3 1.5c-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5c-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"/>
+          <path d="M9 18c-4.51 2-5-2-7-2"/>
+        </svg>
+        GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/walter-paulo-j" target="_blank" rel="noreferrer noopener">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"/>
+          <circle cx="4" cy="4" r="2"/>
+        </svg>
+        LinkedIn
+      </a>
+    </div>
+  </div>
+
+  <!-- ===== HERO ===== -->
+  <section id="Inicio" class="hero">
+    <video class="hero-video" src="video/pc_14522334_640_360_25fps.mp4" loop muted autoplay playsinline></video>
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-img-wrapper" id="heroImg">
+        <img src="img/eu.png" alt="Walter Paulo - Software Developer" />
+      </div>
+      <div>
+        <h1>Walter <span>Paulo</span></h1>
+        <p class="hero-sub">Desenvolvedor de Software</p>
+        <p class="hero-desc">
+          Construindo soluções full-stack robustas, com código limpo e tecnologias de ponta.<br />
+          <span style="color:var(--text-muted);font-size:.88rem">Building robust full-stack solutions with clean code and cutting-edge technologies</span>
+        </p>
+        <div class="hero-pills">
+          <span class="hero-pill">Angular</span>
+          <span class="hero-pill">Automação com IA</span>
+          <span class="hero-pill">Apache</span>
+          <span class="hero-pill">BootStrap</span>
+          <span class="hero-pill">CSS</span>
+          <span class="hero-pill">Docker</span>
+          <span class="hero-pill">Eclipse</span>
+          <span class="hero-pill">Figma</span>
+          <span class="hero-pill">Gimp</span>
+          <span class="hero-pill">Git</span>
+          <span class="hero-pill">GitHub</span>
+          <span class="hero-pill">GNU/Linux</span>
+          <span class="hero-pill">HTML</span>
+          <span class="hero-pill">Java</span>
+          <span class="hero-pill">JavaScript</span>
+          <span class="hero-pill">JQuery</span>
+          <span class="hero-pill">Linux</span>
+          <span class="hero-pill">Node.js</span>
+          <span class="hero-pill">Nginx</span>
+          <span class="hero-pill">Markdown</span>
+          <span class="hero-pill">Mysql</span>
+          <span class="hero-pill">PostgreSQL</span>
+          <span class="hero-pill">React</span>
+          <span class="hero-pill">Ruby</span>
+          <span class="hero-pill">scharp</span>
+          <span class="hero-pill">Spring</span>
+          <span class="hero-pill">Shell Script</span>
+          <span class="hero-pill">Spring Boot</span>
+          <span class="hero-pill">SQLite</span>
+          <span class="hero-pill">Thymeleaf</span>
+          <span class="hero-pill">Terraform</span>
+          <span class="hero-pill">Visual Studio Code</span>
+        </div>
+        <div class="hero-cta">
+          <a href="https://github.com/walterpaulo" target="_blank" rel="noreferrer noopener" class="btn btn-primary">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5c.08-1.25-.27-2.48-1-3.5c.28-1.15.28-2.35 0-3.5c0 0-1 0-3 1.5c-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5c-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"/>
+              <path d="M9 18c-4.51 2-5-2-7-2"/>
+            </svg>
+            Acessar GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/walter-paulo-j" target="_blank" rel="noreferrer noopener" class="btn btn-outline">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+            Perfil no LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SOBRE (Stack) ===== -->
+  <section id="Sobre" class="section">
+    <div class="container">
+      <span class="section-label">Stack</span>
+      <h2 class="section-title">Stack de Tecnologias</h2>
+      <p class="section-sub">Atuação em todas as etapas do ciclo de desenvolvimento</p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m16 18l6-6l-6-6M8 6l-6 6l6 6"/>
+            </svg>
+          </div>
+          <h3>Java</h3>
+          <p>Soluções empresariais com arquitetura robusta</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" rx="2" ry="2" width="20" height="8"/><rect x="2" y="14" rx="2" ry="2" width="20" height="8"/><path d="M6 6h.01M6 18h.01"/>
+            </svg>
+          </div>
+          <h3>Spring Boot</h3>
+          <p>Desenvolvimento de APIs RESTful e microsserviços</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 19h8M4 17l6-6l-6-6"/>
+            </svg>
+          </div>
+          <h3>Angular</h3>
+          <p>Aplicações single-page dinâmicas e com design moderno</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m16 18l6-6l-6-6M8 6l-6 6l6 6"/>
+            </svg>
+          </div>
+          <h3>TypeScript &amp; JavaScript</h3>
+          <p>Tipagem segura para garantir um frontend mais escalável</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m16 18l6-6l-6-6M8 6l-6 6l6 6"/>
+            </svg>
+          </div>
+          <h3>HTML &amp; CSS</h3>
+          <p>Interfaces responsivas, acessíveis e visualmente precisas</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/>
+            </svg>
+          </div>
+          <h3>SQL</h3>
+          <p>Modelagem de banco de dados, otimização e consultas complexas</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HABILIDADES (Jornada) ===== -->
+  <section id="Habilidades" class="section">
+    <div class="container">
+      <span class="section-label">Jornada</span>
+      <h2 class="section-title">Jornada Profissional</h2>
+      <p class="section-sub">Dedicado à excelência no desenvolvimento de software</p>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/><rect x="2" y="6" rx="2" width="20" height="14"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <h3>Experiência Full-Stack</h3>
+            <p>
+              Desenvolvedor experiente com conhecimento abrangente em tecnologias de
+              <em>back-end</em> e <em>front-end</em>. Especializado na criação de aplicações
+              <em>Java escaláveis</em> e <em>interfaces dinâmicas em Angular</em>,
+              que funcionam de forma integrada e eficiente.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" rx="2" ry="2" width="20" height="8"/><rect x="2" y="14" rx="2" ry="2" width="20" height="8"/><path d="M6 6h.01M6 18h.01"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <h3>Especialista em APIs e Integrações</h3>
+            <p>
+              Histórico comprovado no desenvolvimento de <em>APIs RESTful robustas</em>
+              e integrações complexas entre sistemas. Foco na criação de endpoints
+              <em>manuteníveis</em>, que impulsionam aplicações web modernas e garantem um
+              fluxo de dados contínuo entre os serviços.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09M12 15l-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2"/>
+              <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0m1 7v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <h3>Performance &amp; Boas Práticas</h3>
+            <p>
+              Comprometido em entregar soluções de <em>alto desempenho</em>,
+              com código limpo e de fácil manutenção. Aplica
+              <em>boas práticas de mercado</em>,
+              padrões de projeto e técnicas de otimização para
+              garantir aplicações que escalam com eficiência e
+              proporcionam a melhor experiência ao usuário.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m16 18l6-6l-6-6M8 6l-6 6l6 6"/>
+            </svg>
+          </div>
+          <div class="timeline-content">
+            <h3>Soluções Empresariais</h3>
+            <p>
+              Entrega soluções completas end-to-end para empresas,
+              desde a análise inicial de requisitos até o deploy e a
+              manutenção. Experiência no atendimento a clientes
+              corporativos e na compreensão de necessidades de negócio
+              complexas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJETOS ===== -->
+  <section id="Projetos" class="section">
+    <div class="container">
+      <span class="section-label">Portfólio</span>
+      <h2 class="section-title">Projetos em Destaque</h2>
+      <p class="section-sub">Um olhar sobre meus trabalhos mais recentes</p>
+      <div class="projects-grid">
+        <!-- Fila de Veículos -->
+        <div class="project-card">
+          <img class="project-img" src="img/fila-de-veiculos.png" alt="Sistema de Fila de Veículos" loading="lazy" />
+          <div class="project-body">
+            <h3>Sistema de Fila de Veículos</h3>
+            <p>Sistema de gerenciamento de fila de veículos com cadastro, consulta e atualização em tempo real. Frontend React com backend Go.</p>
+            <div class="project-tags">
+              <span class="project-tag">Cadastro de Veículos</span>
+              <span class="project-tag">Fila em Tempo Real</span>
+              <span class="project-tag">Histórico de Atendimentos</span>
+              <span class="project-tag">Notificações</span>
+              <span class="project-tag">Autenticação</span>
+              <span class="project-tag">Painel Admin</span>
+              <span class="project-tag">Perfil de Acesso</span>
+            </div>
+          </div>
+        </div>
+        <!-- Carrinho de Compra -->
+        <div class="project-card">
+          <img class="project-img" src="img/codigo-java.jpeg" alt="Carrinho de Compra - Java com testes" loading="lazy" />
+          <div class="project-body">
+            <h3>Carrinho de Compra - Java com testes</h3>
+            <p>O projeto Games tem o foco no carrinho de compra. A aplicação utiliza dois bancos de memória, o HSQLDB para teste unitário (TDD) e H2 para api web.</p>
+            <div class="project-tags">
+              <span class="project-tag">Java</span>
+              <span class="project-tag">Spring Boot</span>
+              <span class="project-tag">Thymeleaf</span>
+              <span class="project-tag">JUnit</span>
+              <span class="project-tag">H2</span>
+            </div>
+          </div>
+        </div>
+        <!-- API Java + Docker -->
+        <div class="project-card">
+          <img class="project-img" src="img/codigo-java-api.jpeg" alt="API Em Java + Docker" loading="lazy" />
+          <div class="project-body">
+            <h3>API Em Java + Docker</h3>
+            <p>Este projeto consiste no desenvolvimento de uma API em Java, com a implementação do Docker para facilitar a sua execução em ambientes isolados, além de uma documentação completa que descreve todas as funcionalidades disponíveis. A API oferece operações CRUD para entidades de Usuário, Conta e Fornecedor.</p>
+            <div class="project-tags">
+              <span class="project-tag">Java 17</span>
+              <span class="project-tag">Spring Boot</span>
+              <span class="project-tag">Docker</span>
+              <span class="project-tag">Maven</span>
+              <span class="project-tag">Swagger</span>
+              <span class="project-tag">REST API</span>
+            </div>
+          </div>
+        </div>
+        <!-- WordPress Terraform -->
+        <div class="project-card">
+          <img class="project-img" src="img/codigo-wp.jpeg" alt="WordPress: Terraform + Ansible Aws" loading="lazy" />
+          <div class="project-body">
+            <h3>WordPress: Terraform + Ansible Aws</h3>
+            <p>Implante e gerencie sites de forma automatizada, escalável e eficiente.</p>
+            <div class="project-tags">
+              <span class="project-tag">Ansible</span>
+              <span class="project-tag">Terraform</span>
+              <span class="project-tag">Aws</span>
+              <span class="project-tag">SQL</span>
+              <span class="project-tag">WordPress</span>
+              <span class="project-tag">python</span>
+              <span class="project-tag">ubuntu</span>
+              <span class="project-tag">EC2</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="projects-cta">
+        <a href="https://github.com/walterpaulo?tab=repositories" target="_blank" class="btn btn-primary">
+          <span>Código de mais projetos</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m5 12l7-7l7 7m-7 7V5"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section id="Contato" class="section cta-section">
+    <video class="cta-video" src="video/pc_3130284-hd_1280_720_30fps.mp4" loop muted autoplay playsinline></video>
+    <div class="cta-overlay"></div>
+    <div class="container">
+      <span class="section-label">Contato</span>
+      <h2 class="section-title">Vamos Construir Algo Incrível</h2>
+      <p class="section-sub" style="max-width:480px">
+        Pronto para dar vida ao seu próximo projeto com código limpo e soluções inovadoras.
+      </p>
+      <div class="cta-btns">
+        <a href="#orcamento" class="btn btn-accent">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+          </svg>
+          Pedir Orçamento
+        </a>
+        <a href="https://github.com/walterpaulo" target="_blank" rel="noreferrer noopener" class="btn btn-outline">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5c.08-1.25-.27-2.48-1-3.5c.28-1.15.28-2.35 0-3.5c0 0-1 0-3 1.5c-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5c-.39.49-.68 1.05-.85 1.65S8.93 17.38 9 18v4"/>
+            <path d="M9 18c-4.51 2-5-2-7-2"/>
+          </svg>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/walter-paulo-j" target="_blank" rel="noreferrer noopener" class="btn btn-outline">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"/>
+            <circle cx="4" cy="4" r="2"/>
+          </svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ORÇAMENTO ===== -->
+  <section id="orcamento" class="section form-section">
+    <div class="container">
+      <span class="section-label">Orçamento</span>
+      <h2 class="section-title">Solicitar Orçamento</h2>
+      <p class="section-sub">Preencha o formulário e entrarei em contato para discutir seu projeto.</p>
+      <form id="formOrcamento" novalidate>
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="nome">Nome *</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+            <span class="error-msg">Digite seu nome completo</span>
+          </div>
+          <div class="form-group">
+            <label for="empresa">Empresa *</label>
+            <input type="text" id="empresa" name="empresa" placeholder="Nome da empresa" required />
+            <span class="error-msg">Digite o nome da empresa</span>
+          </div>
+          <div class="form-group">
+            <label for="telefone">Telefone *</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(11) 98765-4321" required maxlength="15" />
+            <span class="error-msg">Digite um telefone válido</span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+            <span class="error-msg">Digite um email válido</span>
+          </div>
+          <div class="form-group full">
+            <label for="assunto">Assunto *</label>
+            <input type="text" id="assunto" name="assunto" placeholder="Ex: Criação de site, Sistema web, API..." required />
+            <span class="error-msg">Digite o assunto</span>
+          </div>
+          <div class="form-group full">
+            <label for="mensagem">Mensagem *</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Descreva seu projeto ou necessidade" required minlength="10"></textarea>
+            <span class="error-msg">Descreva seu projeto (mínimo 10 caracteres)</span>
+          </div>
+          <div id="formError" class="form-error" style="display:none">
+            <p>Erro ao enviar. Tente novamente mais tarde.</p>
+          </div>
+          <div class="form-submit">
+            <button type="submit" class="btn btn-accent">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/>
+              </svg>
+              Enviar
+            </button>
+          </div>
+        </div>
+      </form>
+      <div class="form-success" id="formSuccess">
+        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+          <polyline points="22 4 12 14.01 9 11.01"/>
+        </svg>
+        <h3>Obrigado!</h3>
+        <p>Recebemos sua solicitação e entraremos em contato em breve.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer id="footer-contato">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">WP<span>.</span></a>
+          <p>Desenvolvedor de Software com experiência em Java, Angular e outras tecnologias.</p>
+        </div>
+        <div>
+          <h4>Links Rápidos</h4>
+          <div class="footer-links">
+            <a href="#Inicio">Início</a>
+            <a href="#Sobre">Sobre</a>
+            <a href="#Habilidades">Habilidades</a>
+            <a href="#Projetos">Projetos</a>
+            <a href="#Contato">Contato</a>
+          </div>
+        </div>
+        <div>
+          <h4>Tecnologias</h4>
+          <div class="footer-techs">
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>Angular</span>
+            <span>TypeScript</span>
+            <span>SQL</span>
+            <span>Outras tecnologias</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Walter Paulo. Todos os direitos reservados.</p>
+        <div class="footer-made">
+          <span>Feito com</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676a.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/>
+          </svg>
+          <span>por um desenvolvedor</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Nav scroll effect
+    const nav = document.querySelector('nav');
+    const menuToggle = document.getElementById('menuToggle');
+    const menuClose = document.getElementById('menuClose');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const mobileLinks = mobileMenu.querySelectorAll('.mobile-links a');
+    const heroVideo = document.querySelector('.hero-video');
+    const heroImg = document.getElementById('heroImg');
+    const heroSection = document.querySelector('.hero');
+
+    window.addEventListener('scroll', function () {
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+
+      if (heroSection && window.matchMedia('(prefers-reduced-motion: no-preference)').matches) {
+        const scrolled = window.pageYOffset;
+        const heroHeight = heroSection.offsetHeight;
+        if (scrolled < heroHeight) {
+          if (heroVideo) {
+            heroVideo.style.transform = 'translateY(' + (scrolled * 0.3) + 'px)';
+          }
+          if (heroImg) {
+            heroImg.style.transform = 'translateY(' + (scrolled * -0.15) + 'px)';
+          }
+        }
+      }
+    });
+
+    // Mobile menu
+    function openMenu() {
+      mobileMenu.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeMenu() {
+      mobileMenu.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+    menuToggle.addEventListener('click', openMenu);
+    menuClose.addEventListener('click', closeMenu);
+    mobileLinks.forEach(function (link) {
+      link.addEventListener('click', closeMenu);
+    });
+
+    // Intersection observer
+    if (window.matchMedia('(prefers-reduced-motion: no-preference)').matches) {
+      const observer = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.2, rootMargin: '0px 0px -80px 0px' });
+
+      document.querySelectorAll('.project-card, .timeline-item').forEach(function (el) {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(30px)';
+        el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        observer.observe(el);
+      });
+    }
+
+    // ===== FORM =====
+    const form = document.getElementById('formOrcamento');
+    const telInput = document.getElementById('telefone');
+    const successDiv = document.getElementById('formSuccess');
+
+    // Phone mask
+    telInput.addEventListener('input', function () {
+      let val = this.value.replace(/\D/g, '');
+      if (val.length > 11) val = val.slice(0, 11);
+      if (val.length > 2) {
+        val = '(' + val.slice(0, 2) + ') ' + val.slice(2);
+      }
+      if (val.length > 10) {
+        val = val.slice(0, 10) + '-' + val.slice(10);
+      }
+      this.value = val;
+    });
+
+    // Validators
+    function showError(input) {
+      const group = input.closest('.form-group');
+      input.classList.add('error');
+      group.querySelector('.error-msg').classList.add('show');
+    }
+
+    function clearError(input) {
+      const group = input.closest('.form-group');
+      input.classList.remove('error');
+      group.querySelector('.error-msg').classList.remove('show');
+    }
+
+    function validateName(val) {
+      return val.trim().length >= 3;
+    }
+
+    function validateEmail(val) {
+      return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val);
+    }
+
+    function validatePhone(val) {
+      const digits = val.replace(/\D/g, '');
+      return digits.length >= 10 && digits.length <= 11;
+    }
+
+    function validateMessage(val) {
+      return val.trim().length >= 10;
+    }
+
+    // Real-time validation on blur
+    form.querySelectorAll('input, textarea').forEach(function (input) {
+      input.addEventListener('blur', function () {
+        if (this.value.trim()) {
+          clearError(this);
+        }
+      });
+      input.addEventListener('input', function () {
+        if (this.classList.contains('error')) {
+          clearError(this);
+        }
+      });
+    });
+
+    // Submit
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const nome = document.getElementById('nome');
+      const empresa = document.getElementById('empresa');
+      const email = document.getElementById('email');
+      const telefone = document.getElementById('telefone');
+      const mensagem = document.getElementById('mensagem');
+
+      let valid = true;
+
+      if (!validateName(nome.value)) { showError(nome); valid = false; }
+      if (!validateName(empresa.value)) { showError(empresa); valid = false; }
+      if (!validateEmail(email.value)) { showError(email); valid = false; }
+      if (!validatePhone(telefone.value)) { showError(telefone); valid = false; }
+      if (!validateMessage(mensagem.value)) { showError(mensagem); valid = false; }
+
+      if (!valid) return;
+
+      const btn = form.querySelector('button[type="submit"]');
+      btn.disabled = true;
+      btn.textContent = 'Enviando...';
+
+      // Substituir # pela URL do Formspree
+      fetch('', {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      })
+      .then(function (resp) {
+        if (resp.ok) {
+          form.style.display = 'none';
+          successDiv.classList.add('show');
+        } else {
+          document.getElementById('formError').style.display = 'block';
+        }
+      })
+      .catch(function () {
+        document.getElementById('formError').style.display = 'block';
+      })
+      .finally(function () {
+        btn.disabled = false;
+        btn.textContent = 'Enviar';
+      });
+    });
+  });
+  </script>
+</body>
+</html>
